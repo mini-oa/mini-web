@@ -1,0 +1,664 @@
+2013-01-07 10:23:54 DEBUG [org.jboss.logging]: Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2013-01-07 10:23:56 DEBUG [net.sf.ehcache.config.ConfigurationFactory]: Configuring ehcache from URL: jar:file:/E:/work/maven/local/repo/net/sf/ehcache/ehcache-core/2.6.2/ehcache-core-2.6.2.jar!/ehcache-failsafe.xml
+2013-01-07 10:23:56 DEBUG [net.sf.ehcache.config.ConfigurationFactory]: Configuring ehcache from InputStream
+2013-01-07 10:23:56 DEBUG [net.sf.ehcache.config.BeanHandler]: Ignoring ehcache attribute xmlns:xsi
+2013-01-07 10:23:56 DEBUG [net.sf.ehcache.config.BeanHandler]: Ignoring ehcache attribute xsi:noNamespaceSchemaLocation
+2013-01-07 10:23:56 DEBUG [net.sf.ehcache.config.DiskStoreConfiguration]: Disk Store Path: C:\Users\ADMINI~1\AppData\Local\Temp\
+2013-01-07 10:23:56 DEBUG [net.sf.ehcache.util.PropertyUtil]: propertiesString is null.
+2013-01-07 10:23:56 DEBUG [net.sf.ehcache.config.ConfigurationHelper]: No CacheManagerEventListenerFactory class specified. Skipping...
+2013-01-07 10:23:56 DEBUG [net.sf.ehcache.Cache]: No BootstrapCacheLoaderFactory class specified. Skipping...
+2013-01-07 10:23:56 DEBUG [net.sf.ehcache.Cache]: CacheWriter factory not configured. Skipping...
+2013-01-07 10:23:56 DEBUG [net.sf.ehcache.config.ConfigurationHelper]: No CacheExceptionHandlerFactory class specified. Skipping...
+2013-01-07 10:23:56 DEBUG [net.sf.ehcache.store.MemoryStore]: Initialized net.sf.ehcache.store.MemoryStore for org.hibernate.cache.spi.UpdateTimestampsCache
+2013-01-07 10:23:56 DEBUG [net.sf.ehcache.DiskStorePathManager]: Using diskstore path C:\Users\ADMINI~1\AppData\Local\Temp
+2013-01-07 10:23:56 DEBUG [net.sf.ehcache.DiskStorePathManager]: Holding exclusive lock on C:\Users\ADMINI~1\AppData\Local\Temp\.ehcache-diskstore.lock
+2013-01-07 10:23:56 DEBUG [net.sf.ehcache.store.disk.DiskStorageFactory]: Failed to delete file org%002ehibernate%002ecache%002espi%002e%0055pdate%0054imestamps%0043ache.data
+2013-01-07 10:23:56 DEBUG [net.sf.ehcache.store.disk.DiskStorageFactory]: Failed to delete file org%002ehibernate%002ecache%002espi%002e%0055pdate%0054imestamps%0043ache.index
+2013-01-07 10:23:56 DEBUG [net.sf.ehcache.store.disk.DiskStorageFactory]: Matching data file missing (or empty) for index file. Deleting index file C:\Users\ADMINI~1\AppData\Local\Temp\org%002ehibernate%002ecache%002espi%002e%0055pdate%0054imestamps%0043ache.index
+2013-01-07 10:23:56 DEBUG [net.sf.ehcache.store.disk.DiskStorageFactory]: Failed to delete file org%002ehibernate%002ecache%002espi%002e%0055pdate%0054imestamps%0043ache.index
+2013-01-07 10:23:56 DEBUG [net.sf.ehcache.Cache]: Initialised cache: org.hibernate.cache.spi.UpdateTimestampsCache
+2013-01-07 10:23:56 DEBUG [net.sf.ehcache.config.ConfigurationHelper]: CacheDecoratorFactory not configured for defaultCache. Skipping for 'org.hibernate.cache.spi.UpdateTimestampsCache'.
+2013-01-07 10:23:56 DEBUG [net.sf.ehcache.store.MemoryStore]: Initialized net.sf.ehcache.store.MemoryStore for org.hibernate.cache.internal.StandardQueryCache
+2013-01-07 10:23:56 DEBUG [net.sf.ehcache.store.disk.DiskStorageFactory]: Failed to delete file org%002ehibernate%002ecache%002einternal%002e%0053tandard%0051uery%0043ache.data
+2013-01-07 10:23:56 DEBUG [net.sf.ehcache.store.disk.DiskStorageFactory]: Failed to delete file org%002ehibernate%002ecache%002einternal%002e%0053tandard%0051uery%0043ache.index
+2013-01-07 10:23:56 DEBUG [net.sf.ehcache.store.disk.DiskStorageFactory]: Matching data file missing (or empty) for index file. Deleting index file C:\Users\ADMINI~1\AppData\Local\Temp\org%002ehibernate%002ecache%002einternal%002e%0053tandard%0051uery%0043ache.index
+2013-01-07 10:23:56 DEBUG [net.sf.ehcache.store.disk.DiskStorageFactory]: Failed to delete file org%002ehibernate%002ecache%002einternal%002e%0053tandard%0051uery%0043ache.index
+2013-01-07 10:23:56 DEBUG [net.sf.ehcache.Cache]: Initialised cache: org.hibernate.cache.internal.StandardQueryCache
+2013-01-07 10:23:56 DEBUG [net.sf.ehcache.config.ConfigurationHelper]: CacheDecoratorFactory not configured for defaultCache. Skipping for 'org.hibernate.cache.internal.StandardQueryCache'.
+2013-01-07 10:23:56 DEBUG [net.sf.ehcache.store.MemoryStore]: Initialized net.sf.ehcache.store.MemoryStore for org.mini.model.TaskBean
+2013-01-07 10:23:56 DEBUG [net.sf.ehcache.store.disk.DiskStorageFactory]: Failed to delete file org%002emini%002emodel%002e%0054ask%0042ean.data
+2013-01-07 10:23:56 DEBUG [net.sf.ehcache.store.disk.DiskStorageFactory]: Failed to delete file org%002emini%002emodel%002e%0054ask%0042ean.index
+2013-01-07 10:23:56 DEBUG [net.sf.ehcache.store.disk.DiskStorageFactory]: Matching data file missing (or empty) for index file. Deleting index file C:\Users\ADMINI~1\AppData\Local\Temp\org%002emini%002emodel%002e%0054ask%0042ean.index
+2013-01-07 10:23:56 DEBUG [net.sf.ehcache.store.disk.DiskStorageFactory]: Failed to delete file org%002emini%002emodel%002e%0054ask%0042ean.index
+2013-01-07 10:23:56 DEBUG [net.sf.ehcache.Cache]: Initialised cache: org.mini.model.TaskBean
+2013-01-07 10:23:56 DEBUG [net.sf.ehcache.config.ConfigurationHelper]: CacheDecoratorFactory not configured for defaultCache. Skipping for 'org.mini.model.TaskBean'.
+2013-01-07 10:23:56 DEBUG [net.sf.ehcache.store.MemoryStore]: Initialized net.sf.ehcache.store.MemoryStore for org.mini.model.Demo
+2013-01-07 10:23:56 DEBUG [net.sf.ehcache.store.disk.DiskStorageFactory]: Failed to delete file org%002emini%002emodel%002e%0044emo.data
+2013-01-07 10:23:56 DEBUG [net.sf.ehcache.store.disk.DiskStorageFactory]: Failed to delete file org%002emini%002emodel%002e%0044emo.index
+2013-01-07 10:23:56 DEBUG [net.sf.ehcache.store.disk.DiskStorageFactory]: Matching data file missing (or empty) for index file. Deleting index file C:\Users\ADMINI~1\AppData\Local\Temp\org%002emini%002emodel%002e%0044emo.index
+2013-01-07 10:23:56 DEBUG [net.sf.ehcache.store.disk.DiskStorageFactory]: Failed to delete file org%002emini%002emodel%002e%0044emo.index
+2013-01-07 10:23:56 DEBUG [net.sf.ehcache.Cache]: Initialised cache: org.mini.model.Demo
+2013-01-07 10:23:56 DEBUG [net.sf.ehcache.config.ConfigurationHelper]: CacheDecoratorFactory not configured for defaultCache. Skipping for 'org.mini.model.Demo'.
+2013-01-07 10:24:17 DEBUG [org.mini.service.impl.SessionServiceImpl]: service注入成功了
+2013-01-07 10:24:17 DEBUG [org.mini.service.impl.SessionServiceImpl]: dao注入成功了
+2013-01-07 10:24:17 DEBUG [org.mini.service.impl.SessionServiceImpl]: service注入成功了
+2013-01-07 10:24:17 DEBUG [org.mini.service.impl.SessionServiceImpl]: service注入成功了
+2013-01-07 10:24:17 DEBUG [org.mini.service.impl.SessionServiceImpl]: dao注入成功了
+2013-01-07 10:24:17 DEBUG [org.mini.service.impl.SessionServiceImpl]: dao注入成功了
+2013-01-07 10:24:25 DEBUG [org.mini.service.impl.SessionServiceImpl]: service注入成功了
+2013-01-07 10:24:25 DEBUG [org.mini.service.impl.SessionServiceImpl]: dao注入成功了
+2013-01-07 10:24:52 DEBUG [org.mini.service.impl.SessionServiceImpl]: service注入成功了
+2013-01-07 10:24:52 DEBUG [org.mini.service.impl.SessionServiceImpl]: dao注入成功了
+2013-01-07 10:27:29 DEBUG [org.jboss.logging]: Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2013-01-07 10:27:30 DEBUG [net.sf.ehcache.config.ConfigurationFactory]: Configuring ehcache from URL: jar:file:/E:/work/maven/local/repo/net/sf/ehcache/ehcache-core/2.6.2/ehcache-core-2.6.2.jar!/ehcache-failsafe.xml
+2013-01-07 10:27:30 DEBUG [net.sf.ehcache.config.ConfigurationFactory]: Configuring ehcache from InputStream
+2013-01-07 10:27:30 DEBUG [net.sf.ehcache.config.BeanHandler]: Ignoring ehcache attribute xmlns:xsi
+2013-01-07 10:27:30 DEBUG [net.sf.ehcache.config.BeanHandler]: Ignoring ehcache attribute xsi:noNamespaceSchemaLocation
+2013-01-07 10:27:30 DEBUG [net.sf.ehcache.config.DiskStoreConfiguration]: Disk Store Path: C:\Users\ADMINI~1\AppData\Local\Temp\
+2013-01-07 10:27:30 DEBUG [net.sf.ehcache.util.PropertyUtil]: propertiesString is null.
+2013-01-07 10:27:30 DEBUG [net.sf.ehcache.config.ConfigurationHelper]: No CacheManagerEventListenerFactory class specified. Skipping...
+2013-01-07 10:27:30 DEBUG [net.sf.ehcache.Cache]: No BootstrapCacheLoaderFactory class specified. Skipping...
+2013-01-07 10:27:30 DEBUG [net.sf.ehcache.Cache]: CacheWriter factory not configured. Skipping...
+2013-01-07 10:27:30 DEBUG [net.sf.ehcache.config.ConfigurationHelper]: No CacheExceptionHandlerFactory class specified. Skipping...
+2013-01-07 10:27:30 DEBUG [net.sf.ehcache.store.MemoryStore]: Initialized net.sf.ehcache.store.MemoryStore for org.hibernate.cache.spi.UpdateTimestampsCache
+2013-01-07 10:27:30 DEBUG [net.sf.ehcache.DiskStorePathManager]: Using diskstore path C:\Users\ADMINI~1\AppData\Local\Temp
+2013-01-07 10:27:30 DEBUG [net.sf.ehcache.DiskStorePathManager]: Holding exclusive lock on C:\Users\ADMINI~1\AppData\Local\Temp\.ehcache-diskstore.lock
+2013-01-07 10:27:30 DEBUG [net.sf.ehcache.store.disk.DiskStorageFactory]: Failed to delete file org%002ehibernate%002ecache%002espi%002e%0055pdate%0054imestamps%0043ache.index
+2013-01-07 10:27:30 DEBUG [net.sf.ehcache.store.disk.DiskStorageFactory]: Matching data file missing (or empty) for index file. Deleting index file C:\Users\ADMINI~1\AppData\Local\Temp\org%002ehibernate%002ecache%002espi%002e%0055pdate%0054imestamps%0043ache.index
+2013-01-07 10:27:30 DEBUG [net.sf.ehcache.store.disk.DiskStorageFactory]: Failed to delete file org%002ehibernate%002ecache%002espi%002e%0055pdate%0054imestamps%0043ache.index
+2013-01-07 10:27:30 DEBUG [net.sf.ehcache.Cache]: Initialised cache: org.hibernate.cache.spi.UpdateTimestampsCache
+2013-01-07 10:27:30 DEBUG [net.sf.ehcache.config.ConfigurationHelper]: CacheDecoratorFactory not configured for defaultCache. Skipping for 'org.hibernate.cache.spi.UpdateTimestampsCache'.
+2013-01-07 10:27:30 DEBUG [net.sf.ehcache.store.MemoryStore]: Initialized net.sf.ehcache.store.MemoryStore for org.hibernate.cache.internal.StandardQueryCache
+2013-01-07 10:27:30 DEBUG [net.sf.ehcache.store.disk.DiskStorageFactory]: Failed to delete file org%002ehibernate%002ecache%002einternal%002e%0053tandard%0051uery%0043ache.index
+2013-01-07 10:27:30 DEBUG [net.sf.ehcache.store.disk.DiskStorageFactory]: Matching data file missing (or empty) for index file. Deleting index file C:\Users\ADMINI~1\AppData\Local\Temp\org%002ehibernate%002ecache%002einternal%002e%0053tandard%0051uery%0043ache.index
+2013-01-07 10:27:30 DEBUG [net.sf.ehcache.store.disk.DiskStorageFactory]: Failed to delete file org%002ehibernate%002ecache%002einternal%002e%0053tandard%0051uery%0043ache.index
+2013-01-07 10:27:30 DEBUG [net.sf.ehcache.Cache]: Initialised cache: org.hibernate.cache.internal.StandardQueryCache
+2013-01-07 10:27:30 DEBUG [net.sf.ehcache.config.ConfigurationHelper]: CacheDecoratorFactory not configured for defaultCache. Skipping for 'org.hibernate.cache.internal.StandardQueryCache'.
+2013-01-07 10:27:30 DEBUG [net.sf.ehcache.store.MemoryStore]: Initialized net.sf.ehcache.store.MemoryStore for org.mini.model.TaskBean
+2013-01-07 10:27:30 DEBUG [net.sf.ehcache.store.disk.DiskStorageFactory]: Failed to delete file org%002emini%002emodel%002e%0054ask%0042ean.index
+2013-01-07 10:27:30 DEBUG [net.sf.ehcache.store.disk.DiskStorageFactory]: Matching data file missing (or empty) for index file. Deleting index file C:\Users\ADMINI~1\AppData\Local\Temp\org%002emini%002emodel%002e%0054ask%0042ean.index
+2013-01-07 10:27:30 DEBUG [net.sf.ehcache.store.disk.DiskStorageFactory]: Failed to delete file org%002emini%002emodel%002e%0054ask%0042ean.index
+2013-01-07 10:27:30 DEBUG [net.sf.ehcache.Cache]: Initialised cache: org.mini.model.TaskBean
+2013-01-07 10:27:30 DEBUG [net.sf.ehcache.config.ConfigurationHelper]: CacheDecoratorFactory not configured for defaultCache. Skipping for 'org.mini.model.TaskBean'.
+2013-01-07 10:27:30 DEBUG [net.sf.ehcache.store.MemoryStore]: Initialized net.sf.ehcache.store.MemoryStore for org.mini.model.Demo
+2013-01-07 10:27:30 DEBUG [net.sf.ehcache.store.disk.DiskStorageFactory]: Failed to delete file org%002emini%002emodel%002e%0044emo.index
+2013-01-07 10:27:30 DEBUG [net.sf.ehcache.store.disk.DiskStorageFactory]: Matching data file missing (or empty) for index file. Deleting index file C:\Users\ADMINI~1\AppData\Local\Temp\org%002emini%002emodel%002e%0044emo.index
+2013-01-07 10:27:30 DEBUG [net.sf.ehcache.store.disk.DiskStorageFactory]: Failed to delete file org%002emini%002emodel%002e%0044emo.index
+2013-01-07 10:27:30 DEBUG [net.sf.ehcache.Cache]: Initialised cache: org.mini.model.Demo
+2013-01-07 10:27:30 DEBUG [net.sf.ehcache.config.ConfigurationHelper]: CacheDecoratorFactory not configured for defaultCache. Skipping for 'org.mini.model.Demo'.
+2013-01-07 10:27:36 DEBUG [org.mini.service.impl.SessionServiceImpl]: service注入成功了
+2013-01-07 10:27:36 DEBUG [org.mini.service.impl.SessionServiceImpl]: dao注入成功了
+2013-01-07 10:27:37 DEBUG [org.mini.service.impl.SessionServiceImpl]: service注入成功了
+2013-01-07 10:27:37 DEBUG [org.mini.service.impl.SessionServiceImpl]: dao注入成功了
+2013-01-07 10:27:37 DEBUG [org.mini.service.impl.SessionServiceImpl]: service注入成功了
+2013-01-07 10:27:37 DEBUG [org.mini.service.impl.SessionServiceImpl]: dao注入成功了
+2013-01-07 10:27:47 DEBUG [org.mini.service.impl.SessionServiceImpl]: service注入成功了
+2013-01-07 10:27:47 DEBUG [org.mini.service.impl.SessionServiceImpl]: dao注入成功了
+2013-01-07 10:30:11 DEBUG [org.mini.service.impl.SessionServiceImpl]: service注入成功了
+2013-01-07 10:30:11 DEBUG [org.mini.service.impl.SessionServiceImpl]: dao注入成功了
+2013-01-07 10:30:12 DEBUG [org.mini.service.impl.SessionServiceImpl]: service注入成功了
+2013-01-07 10:30:12 DEBUG [org.mini.service.impl.SessionServiceImpl]: dao注入成功了
+2013-01-07 10:30:12 DEBUG [org.mini.service.impl.SessionServiceImpl]: service注入成功了
+2013-01-07 10:30:12 DEBUG [org.mini.service.impl.SessionServiceImpl]: dao注入成功了
+2013-01-07 10:30:17 DEBUG [org.mini.service.impl.SessionServiceImpl]: service注入成功了
+2013-01-07 10:30:17 DEBUG [org.mini.service.impl.SessionServiceImpl]: dao注入成功了
+2013-01-07 10:30:49 DEBUG [org.mini.service.impl.SessionServiceImpl]: service注入成功了
+2013-01-07 10:30:49 DEBUG [org.mini.service.impl.SessionServiceImpl]: dao注入成功了
+2013-01-07 10:30:49 DEBUG [org.mini.service.impl.SessionServiceImpl]: service注入成功了
+2013-01-07 10:30:49 DEBUG [org.mini.service.impl.SessionServiceImpl]: dao注入成功了
+2013-01-07 10:30:49 DEBUG [org.mini.service.impl.SessionServiceImpl]: service注入成功了
+2013-01-07 10:30:49 DEBUG [org.mini.service.impl.SessionServiceImpl]: dao注入成功了
+2013-01-07 10:30:53 DEBUG [org.mini.service.impl.SessionServiceImpl]: service注入成功了
+2013-01-07 10:30:53 DEBUG [org.mini.service.impl.SessionServiceImpl]: dao注入成功了
+2013-01-07 10:31:15 DEBUG [org.mini.service.impl.SessionServiceImpl]: service注入成功了
+2013-01-07 10:31:15 DEBUG [org.mini.service.impl.SessionServiceImpl]: dao注入成功了
+2013-01-07 10:31:15 DEBUG [org.mini.service.impl.SessionServiceImpl]: service注入成功了
+2013-01-07 10:31:15 DEBUG [org.mini.service.impl.SessionServiceImpl]: dao注入成功了
+2013-01-07 10:31:15 DEBUG [org.mini.service.impl.SessionServiceImpl]: service注入成功了
+2013-01-07 10:31:15 DEBUG [org.mini.service.impl.SessionServiceImpl]: dao注入成功了
+2013-01-07 10:31:19 DEBUG [org.mini.service.impl.SessionServiceImpl]: service注入成功了
+2013-01-07 10:31:19 DEBUG [org.mini.service.impl.SessionServiceImpl]: dao注入成功了
+2013-01-07 10:32:19 DEBUG [org.jboss.logging]: Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2013-01-07 10:32:19 DEBUG [net.sf.ehcache.config.ConfigurationFactory]: Configuring ehcache from URL: jar:file:/E:/work/maven/local/repo/net/sf/ehcache/ehcache-core/2.6.2/ehcache-core-2.6.2.jar!/ehcache-failsafe.xml
+2013-01-07 10:32:19 DEBUG [net.sf.ehcache.config.ConfigurationFactory]: Configuring ehcache from InputStream
+2013-01-07 10:32:19 DEBUG [net.sf.ehcache.config.BeanHandler]: Ignoring ehcache attribute xmlns:xsi
+2013-01-07 10:32:19 DEBUG [net.sf.ehcache.config.BeanHandler]: Ignoring ehcache attribute xsi:noNamespaceSchemaLocation
+2013-01-07 10:32:19 DEBUG [net.sf.ehcache.config.DiskStoreConfiguration]: Disk Store Path: C:\Users\ADMINI~1\AppData\Local\Temp\
+2013-01-07 10:32:19 DEBUG [net.sf.ehcache.util.PropertyUtil]: propertiesString is null.
+2013-01-07 10:32:19 DEBUG [net.sf.ehcache.config.ConfigurationHelper]: No CacheManagerEventListenerFactory class specified. Skipping...
+2013-01-07 10:32:19 DEBUG [net.sf.ehcache.Cache]: No BootstrapCacheLoaderFactory class specified. Skipping...
+2013-01-07 10:32:19 DEBUG [net.sf.ehcache.Cache]: CacheWriter factory not configured. Skipping...
+2013-01-07 10:32:19 DEBUG [net.sf.ehcache.config.ConfigurationHelper]: No CacheExceptionHandlerFactory class specified. Skipping...
+2013-01-07 10:32:19 DEBUG [net.sf.ehcache.store.MemoryStore]: Initialized net.sf.ehcache.store.MemoryStore for org.hibernate.cache.spi.UpdateTimestampsCache
+2013-01-07 10:32:19 DEBUG [net.sf.ehcache.DiskStorePathManager]: Using diskstore path C:\Users\ADMINI~1\AppData\Local\Temp
+2013-01-07 10:32:19 DEBUG [net.sf.ehcache.DiskStorePathManager]: Holding exclusive lock on C:\Users\ADMINI~1\AppData\Local\Temp\.ehcache-diskstore.lock
+2013-01-07 10:32:19 DEBUG [net.sf.ehcache.store.disk.DiskStorageFactory]: Failed to delete file org%002ehibernate%002ecache%002espi%002e%0055pdate%0054imestamps%0043ache.index
+2013-01-07 10:32:19 DEBUG [net.sf.ehcache.store.disk.DiskStorageFactory]: Matching data file missing (or empty) for index file. Deleting index file C:\Users\ADMINI~1\AppData\Local\Temp\org%002ehibernate%002ecache%002espi%002e%0055pdate%0054imestamps%0043ache.index
+2013-01-07 10:32:19 DEBUG [net.sf.ehcache.store.disk.DiskStorageFactory]: Failed to delete file org%002ehibernate%002ecache%002espi%002e%0055pdate%0054imestamps%0043ache.index
+2013-01-07 10:32:19 DEBUG [net.sf.ehcache.Cache]: Initialised cache: org.hibernate.cache.spi.UpdateTimestampsCache
+2013-01-07 10:32:19 DEBUG [net.sf.ehcache.config.ConfigurationHelper]: CacheDecoratorFactory not configured for defaultCache. Skipping for 'org.hibernate.cache.spi.UpdateTimestampsCache'.
+2013-01-07 10:32:19 DEBUG [net.sf.ehcache.store.MemoryStore]: Initialized net.sf.ehcache.store.MemoryStore for org.hibernate.cache.internal.StandardQueryCache
+2013-01-07 10:32:19 DEBUG [net.sf.ehcache.store.disk.DiskStorageFactory]: Failed to delete file org%002ehibernate%002ecache%002einternal%002e%0053tandard%0051uery%0043ache.index
+2013-01-07 10:32:19 DEBUG [net.sf.ehcache.store.disk.DiskStorageFactory]: Matching data file missing (or empty) for index file. Deleting index file C:\Users\ADMINI~1\AppData\Local\Temp\org%002ehibernate%002ecache%002einternal%002e%0053tandard%0051uery%0043ache.index
+2013-01-07 10:32:19 DEBUG [net.sf.ehcache.store.disk.DiskStorageFactory]: Failed to delete file org%002ehibernate%002ecache%002einternal%002e%0053tandard%0051uery%0043ache.index
+2013-01-07 10:32:19 DEBUG [net.sf.ehcache.Cache]: Initialised cache: org.hibernate.cache.internal.StandardQueryCache
+2013-01-07 10:32:19 DEBUG [net.sf.ehcache.config.ConfigurationHelper]: CacheDecoratorFactory not configured for defaultCache. Skipping for 'org.hibernate.cache.internal.StandardQueryCache'.
+2013-01-07 10:32:19 DEBUG [net.sf.ehcache.store.MemoryStore]: Initialized net.sf.ehcache.store.MemoryStore for org.mini.model.TaskBean
+2013-01-07 10:32:19 DEBUG [net.sf.ehcache.store.disk.DiskStorageFactory]: Failed to delete file org%002emini%002emodel%002e%0054ask%0042ean.index
+2013-01-07 10:32:19 DEBUG [net.sf.ehcache.store.disk.DiskStorageFactory]: Matching data file missing (or empty) for index file. Deleting index file C:\Users\ADMINI~1\AppData\Local\Temp\org%002emini%002emodel%002e%0054ask%0042ean.index
+2013-01-07 10:32:19 DEBUG [net.sf.ehcache.store.disk.DiskStorageFactory]: Failed to delete file org%002emini%002emodel%002e%0054ask%0042ean.index
+2013-01-07 10:32:19 DEBUG [net.sf.ehcache.Cache]: Initialised cache: org.mini.model.TaskBean
+2013-01-07 10:32:19 DEBUG [net.sf.ehcache.config.ConfigurationHelper]: CacheDecoratorFactory not configured for defaultCache. Skipping for 'org.mini.model.TaskBean'.
+2013-01-07 10:32:19 DEBUG [net.sf.ehcache.store.MemoryStore]: Initialized net.sf.ehcache.store.MemoryStore for org.mini.model.Demo
+2013-01-07 10:32:19 DEBUG [net.sf.ehcache.store.disk.DiskStorageFactory]: Failed to delete file org%002emini%002emodel%002e%0044emo.index
+2013-01-07 10:32:19 DEBUG [net.sf.ehcache.store.disk.DiskStorageFactory]: Matching data file missing (or empty) for index file. Deleting index file C:\Users\ADMINI~1\AppData\Local\Temp\org%002emini%002emodel%002e%0044emo.index
+2013-01-07 10:32:19 DEBUG [net.sf.ehcache.store.disk.DiskStorageFactory]: Failed to delete file org%002emini%002emodel%002e%0044emo.index
+2013-01-07 10:32:19 DEBUG [net.sf.ehcache.Cache]: Initialised cache: org.mini.model.Demo
+2013-01-07 10:32:19 DEBUG [net.sf.ehcache.config.ConfigurationHelper]: CacheDecoratorFactory not configured for defaultCache. Skipping for 'org.mini.model.Demo'.
+2013-01-07 10:32:25 DEBUG [org.mini.service.impl.SessionServiceImpl]: service注入成功了
+2013-01-07 10:32:25 DEBUG [org.mini.service.impl.SessionServiceImpl]: dao注入成功了
+2013-01-07 10:32:25 DEBUG [org.mini.service.impl.SessionServiceImpl]: service注入成功了
+2013-01-07 10:32:25 DEBUG [org.mini.service.impl.SessionServiceImpl]: dao注入成功了
+2013-01-07 10:32:25 DEBUG [org.mini.service.impl.SessionServiceImpl]: service注入成功了
+2013-01-07 10:32:25 DEBUG [org.mini.service.impl.SessionServiceImpl]: dao注入成功了
+2013-01-07 10:32:40 DEBUG [org.mini.service.impl.SessionServiceImpl]: service注入成功了
+2013-01-07 10:32:40 DEBUG [org.mini.service.impl.SessionServiceImpl]: dao注入成功了
+2013-01-07 10:32:40 DEBUG [org.mini.service.impl.SessionServiceImpl]: service注入成功了
+2013-01-07 10:32:40 DEBUG [org.mini.service.impl.SessionServiceImpl]: dao注入成功了
+2013-01-07 10:32:40 DEBUG [org.mini.service.impl.SessionServiceImpl]: service注入成功了
+2013-01-07 10:32:40 DEBUG [org.mini.service.impl.SessionServiceImpl]: dao注入成功了
+2013-01-07 10:32:44 DEBUG [org.mini.service.impl.SessionServiceImpl]: service注入成功了
+2013-01-07 10:32:44 DEBUG [org.mini.service.impl.SessionServiceImpl]: dao注入成功了
+2013-01-07 10:33:41 DEBUG [org.jboss.logging]: Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2013-01-07 10:33:42 DEBUG [net.sf.ehcache.config.ConfigurationFactory]: Configuring ehcache from URL: jar:file:/E:/work/maven/local/repo/net/sf/ehcache/ehcache-core/2.6.2/ehcache-core-2.6.2.jar!/ehcache-failsafe.xml
+2013-01-07 10:33:42 DEBUG [net.sf.ehcache.config.ConfigurationFactory]: Configuring ehcache from InputStream
+2013-01-07 10:33:42 DEBUG [net.sf.ehcache.config.BeanHandler]: Ignoring ehcache attribute xmlns:xsi
+2013-01-07 10:33:42 DEBUG [net.sf.ehcache.config.BeanHandler]: Ignoring ehcache attribute xsi:noNamespaceSchemaLocation
+2013-01-07 10:33:42 DEBUG [net.sf.ehcache.config.DiskStoreConfiguration]: Disk Store Path: C:\Users\ADMINI~1\AppData\Local\Temp\
+2013-01-07 10:33:42 DEBUG [net.sf.ehcache.util.PropertyUtil]: propertiesString is null.
+2013-01-07 10:33:42 DEBUG [net.sf.ehcache.config.ConfigurationHelper]: No CacheManagerEventListenerFactory class specified. Skipping...
+2013-01-07 10:33:42 DEBUG [net.sf.ehcache.Cache]: No BootstrapCacheLoaderFactory class specified. Skipping...
+2013-01-07 10:33:42 DEBUG [net.sf.ehcache.Cache]: CacheWriter factory not configured. Skipping...
+2013-01-07 10:33:42 DEBUG [net.sf.ehcache.config.ConfigurationHelper]: No CacheExceptionHandlerFactory class specified. Skipping...
+2013-01-07 10:33:42 DEBUG [net.sf.ehcache.store.MemoryStore]: Initialized net.sf.ehcache.store.MemoryStore for org.hibernate.cache.spi.UpdateTimestampsCache
+2013-01-07 10:33:42 DEBUG [net.sf.ehcache.DiskStorePathManager]: Using diskstore path C:\Users\ADMINI~1\AppData\Local\Temp
+2013-01-07 10:33:42 DEBUG [net.sf.ehcache.DiskStorePathManager]: Holding exclusive lock on C:\Users\ADMINI~1\AppData\Local\Temp\.ehcache-diskstore.lock
+2013-01-07 10:33:42 DEBUG [net.sf.ehcache.store.disk.DiskStorageFactory]: Failed to delete file org%002ehibernate%002ecache%002espi%002e%0055pdate%0054imestamps%0043ache.index
+2013-01-07 10:33:42 DEBUG [net.sf.ehcache.store.disk.DiskStorageFactory]: Matching data file missing (or empty) for index file. Deleting index file C:\Users\ADMINI~1\AppData\Local\Temp\org%002ehibernate%002ecache%002espi%002e%0055pdate%0054imestamps%0043ache.index
+2013-01-07 10:33:42 DEBUG [net.sf.ehcache.store.disk.DiskStorageFactory]: Failed to delete file org%002ehibernate%002ecache%002espi%002e%0055pdate%0054imestamps%0043ache.index
+2013-01-07 10:33:42 DEBUG [net.sf.ehcache.Cache]: Initialised cache: org.hibernate.cache.spi.UpdateTimestampsCache
+2013-01-07 10:33:42 DEBUG [net.sf.ehcache.config.ConfigurationHelper]: CacheDecoratorFactory not configured for defaultCache. Skipping for 'org.hibernate.cache.spi.UpdateTimestampsCache'.
+2013-01-07 10:33:42 DEBUG [net.sf.ehcache.store.MemoryStore]: Initialized net.sf.ehcache.store.MemoryStore for org.hibernate.cache.internal.StandardQueryCache
+2013-01-07 10:33:42 DEBUG [net.sf.ehcache.store.disk.DiskStorageFactory]: Failed to delete file org%002ehibernate%002ecache%002einternal%002e%0053tandard%0051uery%0043ache.index
+2013-01-07 10:33:42 DEBUG [net.sf.ehcache.store.disk.DiskStorageFactory]: Matching data file missing (or empty) for index file. Deleting index file C:\Users\ADMINI~1\AppData\Local\Temp\org%002ehibernate%002ecache%002einternal%002e%0053tandard%0051uery%0043ache.index
+2013-01-07 10:33:42 DEBUG [net.sf.ehcache.store.disk.DiskStorageFactory]: Failed to delete file org%002ehibernate%002ecache%002einternal%002e%0053tandard%0051uery%0043ache.index
+2013-01-07 10:33:42 DEBUG [net.sf.ehcache.Cache]: Initialised cache: org.hibernate.cache.internal.StandardQueryCache
+2013-01-07 10:33:42 DEBUG [net.sf.ehcache.config.ConfigurationHelper]: CacheDecoratorFactory not configured for defaultCache. Skipping for 'org.hibernate.cache.internal.StandardQueryCache'.
+2013-01-07 10:33:42 DEBUG [net.sf.ehcache.store.MemoryStore]: Initialized net.sf.ehcache.store.MemoryStore for org.mini.model.TaskBean
+2013-01-07 10:33:42 DEBUG [net.sf.ehcache.store.disk.DiskStorageFactory]: Failed to delete file org%002emini%002emodel%002e%0054ask%0042ean.index
+2013-01-07 10:33:42 DEBUG [net.sf.ehcache.store.disk.DiskStorageFactory]: Matching data file missing (or empty) for index file. Deleting index file C:\Users\ADMINI~1\AppData\Local\Temp\org%002emini%002emodel%002e%0054ask%0042ean.index
+2013-01-07 10:33:42 DEBUG [net.sf.ehcache.store.disk.DiskStorageFactory]: Failed to delete file org%002emini%002emodel%002e%0054ask%0042ean.index
+2013-01-07 10:33:42 DEBUG [net.sf.ehcache.Cache]: Initialised cache: org.mini.model.TaskBean
+2013-01-07 10:33:42 DEBUG [net.sf.ehcache.config.ConfigurationHelper]: CacheDecoratorFactory not configured for defaultCache. Skipping for 'org.mini.model.TaskBean'.
+2013-01-07 10:33:42 DEBUG [net.sf.ehcache.store.MemoryStore]: Initialized net.sf.ehcache.store.MemoryStore for org.mini.model.Demo
+2013-01-07 10:33:42 DEBUG [net.sf.ehcache.store.disk.DiskStorageFactory]: Failed to delete file org%002emini%002emodel%002e%0044emo.index
+2013-01-07 10:33:42 DEBUG [net.sf.ehcache.store.disk.DiskStorageFactory]: Matching data file missing (or empty) for index file. Deleting index file C:\Users\ADMINI~1\AppData\Local\Temp\org%002emini%002emodel%002e%0044emo.index
+2013-01-07 10:33:42 DEBUG [net.sf.ehcache.store.disk.DiskStorageFactory]: Failed to delete file org%002emini%002emodel%002e%0044emo.index
+2013-01-07 10:33:42 DEBUG [net.sf.ehcache.Cache]: Initialised cache: org.mini.model.Demo
+2013-01-07 10:33:42 DEBUG [net.sf.ehcache.config.ConfigurationHelper]: CacheDecoratorFactory not configured for defaultCache. Skipping for 'org.mini.model.Demo'.
+2013-01-07 10:33:46 DEBUG [org.mini.service.impl.SessionServiceImpl]: service注入成功了
+2013-01-07 10:33:46 DEBUG [org.mini.service.impl.SessionServiceImpl]: dao注入成功了
+2013-01-07 10:33:46 DEBUG [org.mini.service.impl.SessionServiceImpl]: service注入成功了
+2013-01-07 10:33:46 DEBUG [org.mini.service.impl.SessionServiceImpl]: dao注入成功了
+2013-01-07 10:33:46 DEBUG [org.mini.service.impl.SessionServiceImpl]: service注入成功了
+2013-01-07 10:33:46 DEBUG [org.mini.service.impl.SessionServiceImpl]: dao注入成功了
+2013-01-07 10:33:51 DEBUG [org.mini.service.impl.SessionServiceImpl]: service注入成功了
+2013-01-07 10:33:51 DEBUG [org.mini.service.impl.SessionServiceImpl]: dao注入成功了
+2013-01-07 10:35:11 DEBUG [org.jboss.logging]: Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2013-01-07 10:35:11 DEBUG [net.sf.ehcache.config.ConfigurationFactory]: Configuring ehcache from URL: jar:file:/E:/work/maven/local/repo/net/sf/ehcache/ehcache-core/2.6.2/ehcache-core-2.6.2.jar!/ehcache-failsafe.xml
+2013-01-07 10:35:11 DEBUG [net.sf.ehcache.config.ConfigurationFactory]: Configuring ehcache from InputStream
+2013-01-07 10:35:11 DEBUG [net.sf.ehcache.config.BeanHandler]: Ignoring ehcache attribute xmlns:xsi
+2013-01-07 10:35:11 DEBUG [net.sf.ehcache.config.BeanHandler]: Ignoring ehcache attribute xsi:noNamespaceSchemaLocation
+2013-01-07 10:35:11 DEBUG [net.sf.ehcache.config.DiskStoreConfiguration]: Disk Store Path: C:\Users\ADMINI~1\AppData\Local\Temp\
+2013-01-07 10:35:11 DEBUG [net.sf.ehcache.util.PropertyUtil]: propertiesString is null.
+2013-01-07 10:35:11 DEBUG [net.sf.ehcache.config.ConfigurationHelper]: No CacheManagerEventListenerFactory class specified. Skipping...
+2013-01-07 10:35:11 DEBUG [net.sf.ehcache.Cache]: No BootstrapCacheLoaderFactory class specified. Skipping...
+2013-01-07 10:35:11 DEBUG [net.sf.ehcache.Cache]: CacheWriter factory not configured. Skipping...
+2013-01-07 10:35:11 DEBUG [net.sf.ehcache.config.ConfigurationHelper]: No CacheExceptionHandlerFactory class specified. Skipping...
+2013-01-07 10:35:11 DEBUG [net.sf.ehcache.store.MemoryStore]: Initialized net.sf.ehcache.store.MemoryStore for org.hibernate.cache.spi.UpdateTimestampsCache
+2013-01-07 10:35:11 DEBUG [net.sf.ehcache.DiskStorePathManager]: Using diskstore path C:\Users\ADMINI~1\AppData\Local\Temp
+2013-01-07 10:35:11 DEBUG [net.sf.ehcache.DiskStorePathManager]: Holding exclusive lock on C:\Users\ADMINI~1\AppData\Local\Temp\.ehcache-diskstore.lock
+2013-01-07 10:35:11 DEBUG [net.sf.ehcache.store.disk.DiskStorageFactory]: Failed to delete file org%002ehibernate%002ecache%002espi%002e%0055pdate%0054imestamps%0043ache.index
+2013-01-07 10:35:11 DEBUG [net.sf.ehcache.store.disk.DiskStorageFactory]: Matching data file missing (or empty) for index file. Deleting index file C:\Users\ADMINI~1\AppData\Local\Temp\org%002ehibernate%002ecache%002espi%002e%0055pdate%0054imestamps%0043ache.index
+2013-01-07 10:35:11 DEBUG [net.sf.ehcache.store.disk.DiskStorageFactory]: Failed to delete file org%002ehibernate%002ecache%002espi%002e%0055pdate%0054imestamps%0043ache.index
+2013-01-07 10:35:11 DEBUG [net.sf.ehcache.Cache]: Initialised cache: org.hibernate.cache.spi.UpdateTimestampsCache
+2013-01-07 10:35:11 DEBUG [net.sf.ehcache.config.ConfigurationHelper]: CacheDecoratorFactory not configured for defaultCache. Skipping for 'org.hibernate.cache.spi.UpdateTimestampsCache'.
+2013-01-07 10:35:11 DEBUG [net.sf.ehcache.store.MemoryStore]: Initialized net.sf.ehcache.store.MemoryStore for org.hibernate.cache.internal.StandardQueryCache
+2013-01-07 10:35:11 DEBUG [net.sf.ehcache.store.disk.DiskStorageFactory]: Failed to delete file org%002ehibernate%002ecache%002einternal%002e%0053tandard%0051uery%0043ache.index
+2013-01-07 10:35:11 DEBUG [net.sf.ehcache.store.disk.DiskStorageFactory]: Matching data file missing (or empty) for index file. Deleting index file C:\Users\ADMINI~1\AppData\Local\Temp\org%002ehibernate%002ecache%002einternal%002e%0053tandard%0051uery%0043ache.index
+2013-01-07 10:35:11 DEBUG [net.sf.ehcache.store.disk.DiskStorageFactory]: Failed to delete file org%002ehibernate%002ecache%002einternal%002e%0053tandard%0051uery%0043ache.index
+2013-01-07 10:35:11 DEBUG [net.sf.ehcache.Cache]: Initialised cache: org.hibernate.cache.internal.StandardQueryCache
+2013-01-07 10:35:11 DEBUG [net.sf.ehcache.config.ConfigurationHelper]: CacheDecoratorFactory not configured for defaultCache. Skipping for 'org.hibernate.cache.internal.StandardQueryCache'.
+2013-01-07 10:35:11 DEBUG [net.sf.ehcache.store.MemoryStore]: Initialized net.sf.ehcache.store.MemoryStore for org.mini.model.TaskBean
+2013-01-07 10:35:11 DEBUG [net.sf.ehcache.store.disk.DiskStorageFactory]: Failed to delete file org%002emini%002emodel%002e%0054ask%0042ean.index
+2013-01-07 10:35:11 DEBUG [net.sf.ehcache.store.disk.DiskStorageFactory]: Matching data file missing (or empty) for index file. Deleting index file C:\Users\ADMINI~1\AppData\Local\Temp\org%002emini%002emodel%002e%0054ask%0042ean.index
+2013-01-07 10:35:11 DEBUG [net.sf.ehcache.store.disk.DiskStorageFactory]: Failed to delete file org%002emini%002emodel%002e%0054ask%0042ean.index
+2013-01-07 10:35:11 DEBUG [net.sf.ehcache.Cache]: Initialised cache: org.mini.model.TaskBean
+2013-01-07 10:35:11 DEBUG [net.sf.ehcache.config.ConfigurationHelper]: CacheDecoratorFactory not configured for defaultCache. Skipping for 'org.mini.model.TaskBean'.
+2013-01-07 10:35:11 DEBUG [net.sf.ehcache.store.MemoryStore]: Initialized net.sf.ehcache.store.MemoryStore for org.mini.model.Demo
+2013-01-07 10:35:11 DEBUG [net.sf.ehcache.store.disk.DiskStorageFactory]: Failed to delete file org%002emini%002emodel%002e%0044emo.index
+2013-01-07 10:35:11 DEBUG [net.sf.ehcache.store.disk.DiskStorageFactory]: Matching data file missing (or empty) for index file. Deleting index file C:\Users\ADMINI~1\AppData\Local\Temp\org%002emini%002emodel%002e%0044emo.index
+2013-01-07 10:35:11 DEBUG [net.sf.ehcache.store.disk.DiskStorageFactory]: Failed to delete file org%002emini%002emodel%002e%0044emo.index
+2013-01-07 10:35:11 DEBUG [net.sf.ehcache.Cache]: Initialised cache: org.mini.model.Demo
+2013-01-07 10:35:11 DEBUG [net.sf.ehcache.config.ConfigurationHelper]: CacheDecoratorFactory not configured for defaultCache. Skipping for 'org.mini.model.Demo'.
+2013-01-07 10:35:16 DEBUG [org.mini.service.impl.SessionServiceImpl]: service注入成功了
+2013-01-07 10:35:16 DEBUG [org.mini.service.impl.SessionServiceImpl]: dao注入成功了
+2013-01-07 10:35:16 DEBUG [org.mini.service.impl.SessionServiceImpl]: service注入成功了
+2013-01-07 10:35:16 DEBUG [org.mini.service.impl.SessionServiceImpl]: dao注入成功了
+2013-01-07 10:35:16 DEBUG [org.mini.service.impl.SessionServiceImpl]: service注入成功了
+2013-01-07 10:35:16 DEBUG [org.mini.service.impl.SessionServiceImpl]: dao注入成功了
+2013-01-07 10:35:22 DEBUG [org.mini.service.impl.SessionServiceImpl]: service注入成功了
+2013-01-07 10:35:22 DEBUG [org.mini.service.impl.SessionServiceImpl]: dao注入成功了
+2013-01-07 10:35:29 DEBUG [org.mini.service.impl.SessionServiceImpl]: service注入成功了
+2013-01-07 10:35:29 DEBUG [org.mini.service.impl.SessionServiceImpl]: dao注入成功了
+2013-01-07 10:36:45 DEBUG [org.jboss.logging]: Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2013-01-07 10:36:45 DEBUG [net.sf.ehcache.config.ConfigurationFactory]: Configuring ehcache from URL: jar:file:/E:/work/maven/local/repo/net/sf/ehcache/ehcache-core/2.6.2/ehcache-core-2.6.2.jar!/ehcache-failsafe.xml
+2013-01-07 10:36:45 DEBUG [net.sf.ehcache.config.ConfigurationFactory]: Configuring ehcache from InputStream
+2013-01-07 10:36:45 DEBUG [net.sf.ehcache.config.BeanHandler]: Ignoring ehcache attribute xmlns:xsi
+2013-01-07 10:36:45 DEBUG [net.sf.ehcache.config.BeanHandler]: Ignoring ehcache attribute xsi:noNamespaceSchemaLocation
+2013-01-07 10:36:45 DEBUG [net.sf.ehcache.config.DiskStoreConfiguration]: Disk Store Path: C:\Users\ADMINI~1\AppData\Local\Temp\
+2013-01-07 10:36:45 DEBUG [net.sf.ehcache.util.PropertyUtil]: propertiesString is null.
+2013-01-07 10:36:46 DEBUG [net.sf.ehcache.config.ConfigurationHelper]: No CacheManagerEventListenerFactory class specified. Skipping...
+2013-01-07 10:36:46 DEBUG [net.sf.ehcache.Cache]: No BootstrapCacheLoaderFactory class specified. Skipping...
+2013-01-07 10:36:46 DEBUG [net.sf.ehcache.Cache]: CacheWriter factory not configured. Skipping...
+2013-01-07 10:36:46 DEBUG [net.sf.ehcache.config.ConfigurationHelper]: No CacheExceptionHandlerFactory class specified. Skipping...
+2013-01-07 10:36:46 DEBUG [net.sf.ehcache.store.MemoryStore]: Initialized net.sf.ehcache.store.MemoryStore for org.hibernate.cache.spi.UpdateTimestampsCache
+2013-01-07 10:36:46 DEBUG [net.sf.ehcache.DiskStorePathManager]: Using diskstore path C:\Users\ADMINI~1\AppData\Local\Temp
+2013-01-07 10:36:46 DEBUG [net.sf.ehcache.DiskStorePathManager]: Holding exclusive lock on C:\Users\ADMINI~1\AppData\Local\Temp\.ehcache-diskstore.lock
+2013-01-07 10:36:46 DEBUG [net.sf.ehcache.store.disk.DiskStorageFactory]: Failed to delete file org%002ehibernate%002ecache%002espi%002e%0055pdate%0054imestamps%0043ache.index
+2013-01-07 10:36:46 DEBUG [net.sf.ehcache.store.disk.DiskStorageFactory]: Matching data file missing (or empty) for index file. Deleting index file C:\Users\ADMINI~1\AppData\Local\Temp\org%002ehibernate%002ecache%002espi%002e%0055pdate%0054imestamps%0043ache.index
+2013-01-07 10:36:46 DEBUG [net.sf.ehcache.store.disk.DiskStorageFactory]: Failed to delete file org%002ehibernate%002ecache%002espi%002e%0055pdate%0054imestamps%0043ache.index
+2013-01-07 10:36:46 DEBUG [net.sf.ehcache.Cache]: Initialised cache: org.hibernate.cache.spi.UpdateTimestampsCache
+2013-01-07 10:36:46 DEBUG [net.sf.ehcache.config.ConfigurationHelper]: CacheDecoratorFactory not configured for defaultCache. Skipping for 'org.hibernate.cache.spi.UpdateTimestampsCache'.
+2013-01-07 10:36:46 DEBUG [net.sf.ehcache.store.MemoryStore]: Initialized net.sf.ehcache.store.MemoryStore for org.hibernate.cache.internal.StandardQueryCache
+2013-01-07 10:36:46 DEBUG [net.sf.ehcache.store.disk.DiskStorageFactory]: Failed to delete file org%002ehibernate%002ecache%002einternal%002e%0053tandard%0051uery%0043ache.index
+2013-01-07 10:36:46 DEBUG [net.sf.ehcache.store.disk.DiskStorageFactory]: Matching data file missing (or empty) for index file. Deleting index file C:\Users\ADMINI~1\AppData\Local\Temp\org%002ehibernate%002ecache%002einternal%002e%0053tandard%0051uery%0043ache.index
+2013-01-07 10:36:46 DEBUG [net.sf.ehcache.store.disk.DiskStorageFactory]: Failed to delete file org%002ehibernate%002ecache%002einternal%002e%0053tandard%0051uery%0043ache.index
+2013-01-07 10:36:46 DEBUG [net.sf.ehcache.Cache]: Initialised cache: org.hibernate.cache.internal.StandardQueryCache
+2013-01-07 10:36:46 DEBUG [net.sf.ehcache.config.ConfigurationHelper]: CacheDecoratorFactory not configured for defaultCache. Skipping for 'org.hibernate.cache.internal.StandardQueryCache'.
+2013-01-07 10:36:46 DEBUG [net.sf.ehcache.store.MemoryStore]: Initialized net.sf.ehcache.store.MemoryStore for org.mini.model.TaskBean
+2013-01-07 10:36:46 DEBUG [net.sf.ehcache.store.disk.DiskStorageFactory]: Failed to delete file org%002emini%002emodel%002e%0054ask%0042ean.index
+2013-01-07 10:36:46 DEBUG [net.sf.ehcache.store.disk.DiskStorageFactory]: Matching data file missing (or empty) for index file. Deleting index file C:\Users\ADMINI~1\AppData\Local\Temp\org%002emini%002emodel%002e%0054ask%0042ean.index
+2013-01-07 10:36:46 DEBUG [net.sf.ehcache.store.disk.DiskStorageFactory]: Failed to delete file org%002emini%002emodel%002e%0054ask%0042ean.index
+2013-01-07 10:36:46 DEBUG [net.sf.ehcache.Cache]: Initialised cache: org.mini.model.TaskBean
+2013-01-07 10:36:46 DEBUG [net.sf.ehcache.config.ConfigurationHelper]: CacheDecoratorFactory not configured for defaultCache. Skipping for 'org.mini.model.TaskBean'.
+2013-01-07 10:36:46 DEBUG [net.sf.ehcache.store.MemoryStore]: Initialized net.sf.ehcache.store.MemoryStore for org.mini.model.Demo
+2013-01-07 10:36:46 DEBUG [net.sf.ehcache.store.disk.DiskStorageFactory]: Failed to delete file org%002emini%002emodel%002e%0044emo.index
+2013-01-07 10:36:46 DEBUG [net.sf.ehcache.store.disk.DiskStorageFactory]: Matching data file missing (or empty) for index file. Deleting index file C:\Users\ADMINI~1\AppData\Local\Temp\org%002emini%002emodel%002e%0044emo.index
+2013-01-07 10:36:46 DEBUG [net.sf.ehcache.store.disk.DiskStorageFactory]: Failed to delete file org%002emini%002emodel%002e%0044emo.index
+2013-01-07 10:36:46 DEBUG [net.sf.ehcache.Cache]: Initialised cache: org.mini.model.Demo
+2013-01-07 10:36:46 DEBUG [net.sf.ehcache.config.ConfigurationHelper]: CacheDecoratorFactory not configured for defaultCache. Skipping for 'org.mini.model.Demo'.
+2013-01-07 10:36:51 DEBUG [org.mini.service.impl.SessionServiceImpl]: service注入成功了
+2013-01-07 10:36:51 DEBUG [org.mini.service.impl.SessionServiceImpl]: dao注入成功了
+2013-01-07 10:36:51 DEBUG [org.mini.service.impl.SessionServiceImpl]: service注入成功了
+2013-01-07 10:36:51 DEBUG [org.mini.service.impl.SessionServiceImpl]: dao注入成功了
+2013-01-07 10:36:51 DEBUG [org.mini.service.impl.SessionServiceImpl]: service注入成功了
+2013-01-07 10:36:51 DEBUG [org.mini.service.impl.SessionServiceImpl]: dao注入成功了
+2013-01-07 10:36:55 DEBUG [org.mini.service.impl.SessionServiceImpl]: service注入成功了
+2013-01-07 10:36:55 DEBUG [org.mini.service.impl.SessionServiceImpl]: dao注入成功了
+2013-01-07 10:37:24 DEBUG [org.jboss.logging]: Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2013-01-07 10:37:24 DEBUG [net.sf.ehcache.config.ConfigurationFactory]: Configuring ehcache from URL: jar:file:/E:/work/maven/local/repo/net/sf/ehcache/ehcache-core/2.6.2/ehcache-core-2.6.2.jar!/ehcache-failsafe.xml
+2013-01-07 10:37:24 DEBUG [net.sf.ehcache.config.ConfigurationFactory]: Configuring ehcache from InputStream
+2013-01-07 10:37:24 DEBUG [net.sf.ehcache.config.BeanHandler]: Ignoring ehcache attribute xmlns:xsi
+2013-01-07 10:37:24 DEBUG [net.sf.ehcache.config.BeanHandler]: Ignoring ehcache attribute xsi:noNamespaceSchemaLocation
+2013-01-07 10:37:24 DEBUG [net.sf.ehcache.config.DiskStoreConfiguration]: Disk Store Path: C:\Users\ADMINI~1\AppData\Local\Temp\
+2013-01-07 10:37:24 DEBUG [net.sf.ehcache.util.PropertyUtil]: propertiesString is null.
+2013-01-07 10:37:24 DEBUG [net.sf.ehcache.config.ConfigurationHelper]: No CacheManagerEventListenerFactory class specified. Skipping...
+2013-01-07 10:37:25 DEBUG [net.sf.ehcache.Cache]: No BootstrapCacheLoaderFactory class specified. Skipping...
+2013-01-07 10:37:25 DEBUG [net.sf.ehcache.Cache]: CacheWriter factory not configured. Skipping...
+2013-01-07 10:37:25 DEBUG [net.sf.ehcache.config.ConfigurationHelper]: No CacheExceptionHandlerFactory class specified. Skipping...
+2013-01-07 10:37:25 DEBUG [net.sf.ehcache.store.MemoryStore]: Initialized net.sf.ehcache.store.MemoryStore for org.hibernate.cache.spi.UpdateTimestampsCache
+2013-01-07 10:37:25 DEBUG [net.sf.ehcache.DiskStorePathManager]: Using diskstore path C:\Users\ADMINI~1\AppData\Local\Temp
+2013-01-07 10:37:25 DEBUG [net.sf.ehcache.DiskStorePathManager]: Holding exclusive lock on C:\Users\ADMINI~1\AppData\Local\Temp\.ehcache-diskstore.lock
+2013-01-07 10:37:25 DEBUG [net.sf.ehcache.store.disk.DiskStorageFactory]: Failed to delete file org%002ehibernate%002ecache%002espi%002e%0055pdate%0054imestamps%0043ache.index
+2013-01-07 10:37:25 DEBUG [net.sf.ehcache.store.disk.DiskStorageFactory]: Matching data file missing (or empty) for index file. Deleting index file C:\Users\ADMINI~1\AppData\Local\Temp\org%002ehibernate%002ecache%002espi%002e%0055pdate%0054imestamps%0043ache.index
+2013-01-07 10:37:25 DEBUG [net.sf.ehcache.store.disk.DiskStorageFactory]: Failed to delete file org%002ehibernate%002ecache%002espi%002e%0055pdate%0054imestamps%0043ache.index
+2013-01-07 10:37:25 DEBUG [net.sf.ehcache.Cache]: Initialised cache: org.hibernate.cache.spi.UpdateTimestampsCache
+2013-01-07 10:37:25 DEBUG [net.sf.ehcache.config.ConfigurationHelper]: CacheDecoratorFactory not configured for defaultCache. Skipping for 'org.hibernate.cache.spi.UpdateTimestampsCache'.
+2013-01-07 10:37:25 DEBUG [net.sf.ehcache.store.MemoryStore]: Initialized net.sf.ehcache.store.MemoryStore for org.hibernate.cache.internal.StandardQueryCache
+2013-01-07 10:37:25 DEBUG [net.sf.ehcache.store.disk.DiskStorageFactory]: Failed to delete file org%002ehibernate%002ecache%002einternal%002e%0053tandard%0051uery%0043ache.index
+2013-01-07 10:37:25 DEBUG [net.sf.ehcache.store.disk.DiskStorageFactory]: Matching data file missing (or empty) for index file. Deleting index file C:\Users\ADMINI~1\AppData\Local\Temp\org%002ehibernate%002ecache%002einternal%002e%0053tandard%0051uery%0043ache.index
+2013-01-07 10:37:25 DEBUG [net.sf.ehcache.store.disk.DiskStorageFactory]: Failed to delete file org%002ehibernate%002ecache%002einternal%002e%0053tandard%0051uery%0043ache.index
+2013-01-07 10:37:25 DEBUG [net.sf.ehcache.Cache]: Initialised cache: org.hibernate.cache.internal.StandardQueryCache
+2013-01-07 10:37:25 DEBUG [net.sf.ehcache.config.ConfigurationHelper]: CacheDecoratorFactory not configured for defaultCache. Skipping for 'org.hibernate.cache.internal.StandardQueryCache'.
+2013-01-07 10:37:25 DEBUG [net.sf.ehcache.store.MemoryStore]: Initialized net.sf.ehcache.store.MemoryStore for org.mini.model.TaskBean
+2013-01-07 10:37:25 DEBUG [net.sf.ehcache.store.disk.DiskStorageFactory]: Failed to delete file org%002emini%002emodel%002e%0054ask%0042ean.index
+2013-01-07 10:37:25 DEBUG [net.sf.ehcache.store.disk.DiskStorageFactory]: Matching data file missing (or empty) for index file. Deleting index file C:\Users\ADMINI~1\AppData\Local\Temp\org%002emini%002emodel%002e%0054ask%0042ean.index
+2013-01-07 10:37:25 DEBUG [net.sf.ehcache.store.disk.DiskStorageFactory]: Failed to delete file org%002emini%002emodel%002e%0054ask%0042ean.index
+2013-01-07 10:37:25 DEBUG [net.sf.ehcache.Cache]: Initialised cache: org.mini.model.TaskBean
+2013-01-07 10:37:25 DEBUG [net.sf.ehcache.config.ConfigurationHelper]: CacheDecoratorFactory not configured for defaultCache. Skipping for 'org.mini.model.TaskBean'.
+2013-01-07 10:37:25 DEBUG [net.sf.ehcache.store.MemoryStore]: Initialized net.sf.ehcache.store.MemoryStore for org.mini.model.Demo
+2013-01-07 10:37:25 DEBUG [net.sf.ehcache.store.disk.DiskStorageFactory]: Failed to delete file org%002emini%002emodel%002e%0044emo.index
+2013-01-07 10:37:25 DEBUG [net.sf.ehcache.store.disk.DiskStorageFactory]: Matching data file missing (or empty) for index file. Deleting index file C:\Users\ADMINI~1\AppData\Local\Temp\org%002emini%002emodel%002e%0044emo.index
+2013-01-07 10:37:25 DEBUG [net.sf.ehcache.store.disk.DiskStorageFactory]: Failed to delete file org%002emini%002emodel%002e%0044emo.index
+2013-01-07 10:37:25 DEBUG [net.sf.ehcache.Cache]: Initialised cache: org.mini.model.Demo
+2013-01-07 10:37:25 DEBUG [net.sf.ehcache.config.ConfigurationHelper]: CacheDecoratorFactory not configured for defaultCache. Skipping for 'org.mini.model.Demo'.
+2013-01-07 10:37:31 DEBUG [org.mini.service.impl.SessionServiceImpl]: service注入成功了
+2013-01-07 10:37:31 DEBUG [org.mini.service.impl.SessionServiceImpl]: dao注入成功了
+2013-01-07 10:37:31 DEBUG [org.mini.service.impl.SessionServiceImpl]: service注入成功了
+2013-01-07 10:37:31 DEBUG [org.mini.service.impl.SessionServiceImpl]: dao注入成功了
+2013-01-07 10:37:31 DEBUG [org.mini.service.impl.SessionServiceImpl]: service注入成功了
+2013-01-07 10:37:31 DEBUG [org.mini.service.impl.SessionServiceImpl]: dao注入成功了
+2013-01-07 10:37:35 DEBUG [org.mini.service.impl.SessionServiceImpl]: service注入成功了
+2013-01-07 10:37:35 DEBUG [org.mini.service.impl.SessionServiceImpl]: dao注入成功了
+2013-01-07 10:37:39 DEBUG [org.mini.service.impl.SessionServiceImpl]: service注入成功了
+2013-01-07 10:37:39 DEBUG [org.mini.service.impl.SessionServiceImpl]: dao注入成功了
+2013-01-07 10:37:40 DEBUG [org.mini.service.impl.SessionServiceImpl]: service注入成功了
+2013-01-07 10:37:40 DEBUG [org.mini.service.impl.SessionServiceImpl]: dao注入成功了
+2013-01-07 11:23:05 DEBUG [org.jboss.logging]: Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2013-01-07 11:23:05 DEBUG [net.sf.ehcache.config.ConfigurationFactory]: Configuring ehcache from URL: jar:file:/E:/work/maven/local/repo/net/sf/ehcache/ehcache-core/2.6.2/ehcache-core-2.6.2.jar!/ehcache-failsafe.xml
+2013-01-07 11:23:05 DEBUG [net.sf.ehcache.config.ConfigurationFactory]: Configuring ehcache from InputStream
+2013-01-07 11:23:05 DEBUG [net.sf.ehcache.config.BeanHandler]: Ignoring ehcache attribute xmlns:xsi
+2013-01-07 11:23:05 DEBUG [net.sf.ehcache.config.BeanHandler]: Ignoring ehcache attribute xsi:noNamespaceSchemaLocation
+2013-01-07 11:23:05 DEBUG [net.sf.ehcache.config.DiskStoreConfiguration]: Disk Store Path: C:\Users\ADMINI~1\AppData\Local\Temp\
+2013-01-07 11:23:05 DEBUG [net.sf.ehcache.util.PropertyUtil]: propertiesString is null.
+2013-01-07 11:23:05 DEBUG [net.sf.ehcache.config.ConfigurationHelper]: No CacheManagerEventListenerFactory class specified. Skipping...
+2013-01-07 11:23:05 DEBUG [net.sf.ehcache.Cache]: No BootstrapCacheLoaderFactory class specified. Skipping...
+2013-01-07 11:23:05 DEBUG [net.sf.ehcache.Cache]: CacheWriter factory not configured. Skipping...
+2013-01-07 11:23:05 DEBUG [net.sf.ehcache.config.ConfigurationHelper]: No CacheExceptionHandlerFactory class specified. Skipping...
+2013-01-07 11:23:05 DEBUG [net.sf.ehcache.store.MemoryStore]: Initialized net.sf.ehcache.store.MemoryStore for org.hibernate.cache.spi.UpdateTimestampsCache
+2013-01-07 11:23:05 DEBUG [net.sf.ehcache.DiskStorePathManager]: Using diskstore path C:\Users\ADMINI~1\AppData\Local\Temp
+2013-01-07 11:23:05 DEBUG [net.sf.ehcache.DiskStorePathManager]: Holding exclusive lock on C:\Users\ADMINI~1\AppData\Local\Temp\.ehcache-diskstore.lock
+2013-01-07 11:23:05 DEBUG [net.sf.ehcache.store.disk.DiskStorageFactory]: Failed to delete file org%002ehibernate%002ecache%002espi%002e%0055pdate%0054imestamps%0043ache.index
+2013-01-07 11:23:05 DEBUG [net.sf.ehcache.store.disk.DiskStorageFactory]: Matching data file missing (or empty) for index file. Deleting index file C:\Users\ADMINI~1\AppData\Local\Temp\org%002ehibernate%002ecache%002espi%002e%0055pdate%0054imestamps%0043ache.index
+2013-01-07 11:23:05 DEBUG [net.sf.ehcache.store.disk.DiskStorageFactory]: Failed to delete file org%002ehibernate%002ecache%002espi%002e%0055pdate%0054imestamps%0043ache.index
+2013-01-07 11:23:05 DEBUG [net.sf.ehcache.Cache]: Initialised cache: org.hibernate.cache.spi.UpdateTimestampsCache
+2013-01-07 11:23:05 DEBUG [net.sf.ehcache.config.ConfigurationHelper]: CacheDecoratorFactory not configured for defaultCache. Skipping for 'org.hibernate.cache.spi.UpdateTimestampsCache'.
+2013-01-07 11:23:05 DEBUG [net.sf.ehcache.store.MemoryStore]: Initialized net.sf.ehcache.store.MemoryStore for org.hibernate.cache.internal.StandardQueryCache
+2013-01-07 11:23:05 DEBUG [net.sf.ehcache.store.disk.DiskStorageFactory]: Failed to delete file org%002ehibernate%002ecache%002einternal%002e%0053tandard%0051uery%0043ache.index
+2013-01-07 11:23:05 DEBUG [net.sf.ehcache.store.disk.DiskStorageFactory]: Matching data file missing (or empty) for index file. Deleting index file C:\Users\ADMINI~1\AppData\Local\Temp\org%002ehibernate%002ecache%002einternal%002e%0053tandard%0051uery%0043ache.index
+2013-01-07 11:23:05 DEBUG [net.sf.ehcache.store.disk.DiskStorageFactory]: Failed to delete file org%002ehibernate%002ecache%002einternal%002e%0053tandard%0051uery%0043ache.index
+2013-01-07 11:23:05 DEBUG [net.sf.ehcache.Cache]: Initialised cache: org.hibernate.cache.internal.StandardQueryCache
+2013-01-07 11:23:05 DEBUG [net.sf.ehcache.config.ConfigurationHelper]: CacheDecoratorFactory not configured for defaultCache. Skipping for 'org.hibernate.cache.internal.StandardQueryCache'.
+2013-01-07 11:23:05 DEBUG [net.sf.ehcache.store.MemoryStore]: Initialized net.sf.ehcache.store.MemoryStore for org.mini.model.TaskBean
+2013-01-07 11:23:05 DEBUG [net.sf.ehcache.store.disk.DiskStorageFactory]: Failed to delete file org%002emini%002emodel%002e%0054ask%0042ean.index
+2013-01-07 11:23:05 DEBUG [net.sf.ehcache.store.disk.DiskStorageFactory]: Matching data file missing (or empty) for index file. Deleting index file C:\Users\ADMINI~1\AppData\Local\Temp\org%002emini%002emodel%002e%0054ask%0042ean.index
+2013-01-07 11:23:05 DEBUG [net.sf.ehcache.store.disk.DiskStorageFactory]: Failed to delete file org%002emini%002emodel%002e%0054ask%0042ean.index
+2013-01-07 11:23:05 DEBUG [net.sf.ehcache.Cache]: Initialised cache: org.mini.model.TaskBean
+2013-01-07 11:23:05 DEBUG [net.sf.ehcache.config.ConfigurationHelper]: CacheDecoratorFactory not configured for defaultCache. Skipping for 'org.mini.model.TaskBean'.
+2013-01-07 11:23:06 DEBUG [net.sf.ehcache.store.MemoryStore]: Initialized net.sf.ehcache.store.MemoryStore for org.mini.model.Demo
+2013-01-07 11:23:06 DEBUG [net.sf.ehcache.store.disk.DiskStorageFactory]: Failed to delete file org%002emini%002emodel%002e%0044emo.index
+2013-01-07 11:23:06 DEBUG [net.sf.ehcache.store.disk.DiskStorageFactory]: Matching data file missing (or empty) for index file. Deleting index file C:\Users\ADMINI~1\AppData\Local\Temp\org%002emini%002emodel%002e%0044emo.index
+2013-01-07 11:23:06 DEBUG [net.sf.ehcache.store.disk.DiskStorageFactory]: Failed to delete file org%002emini%002emodel%002e%0044emo.index
+2013-01-07 11:23:06 DEBUG [net.sf.ehcache.Cache]: Initialised cache: org.mini.model.Demo
+2013-01-07 11:23:06 DEBUG [net.sf.ehcache.config.ConfigurationHelper]: CacheDecoratorFactory not configured for defaultCache. Skipping for 'org.mini.model.Demo'.
+2013-01-07 11:27:41 DEBUG [org.mini.service.impl.SessionServiceImpl]: service注入成功了
+2013-01-07 11:27:41 DEBUG [org.mini.service.impl.SessionServiceImpl]: dao注入成功了
+2013-01-07 16:07:55 DEBUG [org.jboss.logging]: Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2013-01-07 16:07:55 DEBUG [net.sf.ehcache.config.ConfigurationFactory]: Configuring ehcache from URL: jar:file:/E:/work/maven/local/repo/net/sf/ehcache/ehcache-core/2.6.2/ehcache-core-2.6.2.jar!/ehcache-failsafe.xml
+2013-01-07 16:07:55 DEBUG [net.sf.ehcache.config.ConfigurationFactory]: Configuring ehcache from InputStream
+2013-01-07 16:07:55 DEBUG [net.sf.ehcache.config.BeanHandler]: Ignoring ehcache attribute xmlns:xsi
+2013-01-07 16:07:55 DEBUG [net.sf.ehcache.config.BeanHandler]: Ignoring ehcache attribute xsi:noNamespaceSchemaLocation
+2013-01-07 16:07:55 DEBUG [net.sf.ehcache.config.DiskStoreConfiguration]: Disk Store Path: C:\Users\ADMINI~1\AppData\Local\Temp\
+2013-01-07 16:07:55 DEBUG [net.sf.ehcache.util.PropertyUtil]: propertiesString is null.
+2013-01-07 16:07:55 DEBUG [net.sf.ehcache.config.ConfigurationHelper]: No CacheManagerEventListenerFactory class specified. Skipping...
+2013-01-07 16:07:55 DEBUG [net.sf.ehcache.Cache]: No BootstrapCacheLoaderFactory class specified. Skipping...
+2013-01-07 16:07:55 DEBUG [net.sf.ehcache.Cache]: CacheWriter factory not configured. Skipping...
+2013-01-07 16:07:56 DEBUG [net.sf.ehcache.config.ConfigurationHelper]: No CacheExceptionHandlerFactory class specified. Skipping...
+2013-01-07 16:07:56 DEBUG [net.sf.ehcache.store.MemoryStore]: Initialized net.sf.ehcache.store.MemoryStore for org.hibernate.cache.spi.UpdateTimestampsCache
+2013-01-07 16:07:56 DEBUG [net.sf.ehcache.DiskStorePathManager]: Using diskstore path C:\Users\ADMINI~1\AppData\Local\Temp
+2013-01-07 16:07:56 DEBUG [net.sf.ehcache.DiskStorePathManager]: Holding exclusive lock on C:\Users\ADMINI~1\AppData\Local\Temp\.ehcache-diskstore.lock
+2013-01-07 16:07:56 DEBUG [net.sf.ehcache.store.disk.DiskStorageFactory]: Failed to delete file org%002ehibernate%002ecache%002espi%002e%0055pdate%0054imestamps%0043ache.index
+2013-01-07 16:07:56 DEBUG [net.sf.ehcache.store.disk.DiskStorageFactory]: Matching data file missing (or empty) for index file. Deleting index file C:\Users\ADMINI~1\AppData\Local\Temp\org%002ehibernate%002ecache%002espi%002e%0055pdate%0054imestamps%0043ache.index
+2013-01-07 16:07:56 DEBUG [net.sf.ehcache.store.disk.DiskStorageFactory]: Failed to delete file org%002ehibernate%002ecache%002espi%002e%0055pdate%0054imestamps%0043ache.index
+2013-01-07 16:07:56 DEBUG [net.sf.ehcache.Cache]: Initialised cache: org.hibernate.cache.spi.UpdateTimestampsCache
+2013-01-07 16:07:56 DEBUG [net.sf.ehcache.config.ConfigurationHelper]: CacheDecoratorFactory not configured for defaultCache. Skipping for 'org.hibernate.cache.spi.UpdateTimestampsCache'.
+2013-01-07 16:07:56 DEBUG [net.sf.ehcache.store.MemoryStore]: Initialized net.sf.ehcache.store.MemoryStore for org.hibernate.cache.internal.StandardQueryCache
+2013-01-07 16:07:56 DEBUG [net.sf.ehcache.store.disk.DiskStorageFactory]: Failed to delete file org%002ehibernate%002ecache%002einternal%002e%0053tandard%0051uery%0043ache.index
+2013-01-07 16:07:56 DEBUG [net.sf.ehcache.store.disk.DiskStorageFactory]: Matching data file missing (or empty) for index file. Deleting index file C:\Users\ADMINI~1\AppData\Local\Temp\org%002ehibernate%002ecache%002einternal%002e%0053tandard%0051uery%0043ache.index
+2013-01-07 16:07:56 DEBUG [net.sf.ehcache.store.disk.DiskStorageFactory]: Failed to delete file org%002ehibernate%002ecache%002einternal%002e%0053tandard%0051uery%0043ache.index
+2013-01-07 16:07:56 DEBUG [net.sf.ehcache.Cache]: Initialised cache: org.hibernate.cache.internal.StandardQueryCache
+2013-01-07 16:07:56 DEBUG [net.sf.ehcache.config.ConfigurationHelper]: CacheDecoratorFactory not configured for defaultCache. Skipping for 'org.hibernate.cache.internal.StandardQueryCache'.
+2013-01-07 16:07:56 DEBUG [net.sf.ehcache.store.MemoryStore]: Initialized net.sf.ehcache.store.MemoryStore for org.mini.model.TaskBean
+2013-01-07 16:07:56 DEBUG [net.sf.ehcache.store.disk.DiskStorageFactory]: Failed to delete file org%002emini%002emodel%002e%0054ask%0042ean.index
+2013-01-07 16:07:56 DEBUG [net.sf.ehcache.store.disk.DiskStorageFactory]: Matching data file missing (or empty) for index file. Deleting index file C:\Users\ADMINI~1\AppData\Local\Temp\org%002emini%002emodel%002e%0054ask%0042ean.index
+2013-01-07 16:07:56 DEBUG [net.sf.ehcache.store.disk.DiskStorageFactory]: Failed to delete file org%002emini%002emodel%002e%0054ask%0042ean.index
+2013-01-07 16:07:56 DEBUG [net.sf.ehcache.Cache]: Initialised cache: org.mini.model.TaskBean
+2013-01-07 16:07:56 DEBUG [net.sf.ehcache.config.ConfigurationHelper]: CacheDecoratorFactory not configured for defaultCache. Skipping for 'org.mini.model.TaskBean'.
+2013-01-07 16:07:56 DEBUG [net.sf.ehcache.store.MemoryStore]: Initialized net.sf.ehcache.store.MemoryStore for org.mini.model.Demo
+2013-01-07 16:07:56 DEBUG [net.sf.ehcache.store.disk.DiskStorageFactory]: Failed to delete file org%002emini%002emodel%002e%0044emo.index
+2013-01-07 16:07:56 DEBUG [net.sf.ehcache.store.disk.DiskStorageFactory]: Matching data file missing (or empty) for index file. Deleting index file C:\Users\ADMINI~1\AppData\Local\Temp\org%002emini%002emodel%002e%0044emo.index
+2013-01-07 16:07:56 DEBUG [net.sf.ehcache.store.disk.DiskStorageFactory]: Failed to delete file org%002emini%002emodel%002e%0044emo.index
+2013-01-07 16:07:56 DEBUG [net.sf.ehcache.Cache]: Initialised cache: org.mini.model.Demo
+2013-01-07 16:07:56 DEBUG [net.sf.ehcache.config.ConfigurationHelper]: CacheDecoratorFactory not configured for defaultCache. Skipping for 'org.mini.model.Demo'.
+2013-01-07 16:25:21 DEBUG [org.jboss.logging]: Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2013-01-07 16:25:21 DEBUG [net.sf.ehcache.config.ConfigurationFactory]: Configuring ehcache from URL: jar:file:/E:/work/maven/local/repo/net/sf/ehcache/ehcache-core/2.6.2/ehcache-core-2.6.2.jar!/ehcache-failsafe.xml
+2013-01-07 16:25:21 DEBUG [net.sf.ehcache.config.ConfigurationFactory]: Configuring ehcache from InputStream
+2013-01-07 16:25:21 DEBUG [net.sf.ehcache.config.BeanHandler]: Ignoring ehcache attribute xmlns:xsi
+2013-01-07 16:25:21 DEBUG [net.sf.ehcache.config.BeanHandler]: Ignoring ehcache attribute xsi:noNamespaceSchemaLocation
+2013-01-07 16:25:21 DEBUG [net.sf.ehcache.config.DiskStoreConfiguration]: Disk Store Path: C:\Users\ADMINI~1\AppData\Local\Temp\
+2013-01-07 16:25:21 DEBUG [net.sf.ehcache.util.PropertyUtil]: propertiesString is null.
+2013-01-07 16:25:21 DEBUG [net.sf.ehcache.config.ConfigurationHelper]: No CacheManagerEventListenerFactory class specified. Skipping...
+2013-01-07 16:25:21 DEBUG [net.sf.ehcache.Cache]: No BootstrapCacheLoaderFactory class specified. Skipping...
+2013-01-07 16:25:21 DEBUG [net.sf.ehcache.Cache]: CacheWriter factory not configured. Skipping...
+2013-01-07 16:25:21 DEBUG [net.sf.ehcache.config.ConfigurationHelper]: No CacheExceptionHandlerFactory class specified. Skipping...
+2013-01-07 16:25:21 DEBUG [net.sf.ehcache.store.MemoryStore]: Initialized net.sf.ehcache.store.MemoryStore for org.hibernate.cache.spi.UpdateTimestampsCache
+2013-01-07 16:25:21 DEBUG [net.sf.ehcache.DiskStorePathManager]: Using diskstore path C:\Users\ADMINI~1\AppData\Local\Temp\ehcache_auto_created3437146637011507459diskstore
+2013-01-07 16:25:21 DEBUG [net.sf.ehcache.DiskStorePathManager]: Holding exclusive lock on C:\Users\ADMINI~1\AppData\Local\Temp\ehcache_auto_created3437146637011507459diskstore\.ehcache-diskstore.lock
+2013-01-07 16:25:21 DEBUG [net.sf.ehcache.store.disk.DiskStorageFactory]: Failed to delete file org%002ehibernate%002ecache%002espi%002e%0055pdate%0054imestamps%0043ache.data
+2013-01-07 16:25:21 DEBUG [net.sf.ehcache.store.disk.DiskStorageFactory]: Failed to delete file org%002ehibernate%002ecache%002espi%002e%0055pdate%0054imestamps%0043ache.index
+2013-01-07 16:25:21 DEBUG [net.sf.ehcache.store.disk.DiskStorageFactory]: Matching data file missing (or empty) for index file. Deleting index file C:\Users\ADMINI~1\AppData\Local\Temp\ehcache_auto_created3437146637011507459diskstore\org%002ehibernate%002ecache%002espi%002e%0055pdate%0054imestamps%0043ache.index
+2013-01-07 16:25:21 DEBUG [net.sf.ehcache.store.disk.DiskStorageFactory]: Failed to delete file org%002ehibernate%002ecache%002espi%002e%0055pdate%0054imestamps%0043ache.index
+2013-01-07 16:25:21 DEBUG [net.sf.ehcache.Cache]: Initialised cache: org.hibernate.cache.spi.UpdateTimestampsCache
+2013-01-07 16:25:21 DEBUG [net.sf.ehcache.config.ConfigurationHelper]: CacheDecoratorFactory not configured for defaultCache. Skipping for 'org.hibernate.cache.spi.UpdateTimestampsCache'.
+2013-01-07 16:25:21 DEBUG [net.sf.ehcache.store.MemoryStore]: Initialized net.sf.ehcache.store.MemoryStore for org.hibernate.cache.internal.StandardQueryCache
+2013-01-07 16:25:21 DEBUG [net.sf.ehcache.store.disk.DiskStorageFactory]: Failed to delete file org%002ehibernate%002ecache%002einternal%002e%0053tandard%0051uery%0043ache.data
+2013-01-07 16:25:21 DEBUG [net.sf.ehcache.store.disk.DiskStorageFactory]: Failed to delete file org%002ehibernate%002ecache%002einternal%002e%0053tandard%0051uery%0043ache.index
+2013-01-07 16:25:21 DEBUG [net.sf.ehcache.store.disk.DiskStorageFactory]: Matching data file missing (or empty) for index file. Deleting index file C:\Users\ADMINI~1\AppData\Local\Temp\ehcache_auto_created3437146637011507459diskstore\org%002ehibernate%002ecache%002einternal%002e%0053tandard%0051uery%0043ache.index
+2013-01-07 16:25:21 DEBUG [net.sf.ehcache.store.disk.DiskStorageFactory]: Failed to delete file org%002ehibernate%002ecache%002einternal%002e%0053tandard%0051uery%0043ache.index
+2013-01-07 16:25:21 DEBUG [net.sf.ehcache.Cache]: Initialised cache: org.hibernate.cache.internal.StandardQueryCache
+2013-01-07 16:25:21 DEBUG [net.sf.ehcache.config.ConfigurationHelper]: CacheDecoratorFactory not configured for defaultCache. Skipping for 'org.hibernate.cache.internal.StandardQueryCache'.
+2013-01-07 16:25:21 DEBUG [net.sf.ehcache.store.MemoryStore]: Initialized net.sf.ehcache.store.MemoryStore for org.mini.model.Demo
+2013-01-07 16:25:21 DEBUG [net.sf.ehcache.store.disk.DiskStorageFactory]: Failed to delete file org%002emini%002emodel%002e%0044emo.data
+2013-01-07 16:25:21 DEBUG [net.sf.ehcache.store.disk.DiskStorageFactory]: Failed to delete file org%002emini%002emodel%002e%0044emo.index
+2013-01-07 16:25:21 DEBUG [net.sf.ehcache.store.disk.DiskStorageFactory]: Matching data file missing (or empty) for index file. Deleting index file C:\Users\ADMINI~1\AppData\Local\Temp\ehcache_auto_created3437146637011507459diskstore\org%002emini%002emodel%002e%0044emo.index
+2013-01-07 16:25:21 DEBUG [net.sf.ehcache.store.disk.DiskStorageFactory]: Failed to delete file org%002emini%002emodel%002e%0044emo.index
+2013-01-07 16:25:21 DEBUG [net.sf.ehcache.Cache]: Initialised cache: org.mini.model.Demo
+2013-01-07 16:25:21 DEBUG [net.sf.ehcache.config.ConfigurationHelper]: CacheDecoratorFactory not configured for defaultCache. Skipping for 'org.mini.model.Demo'.
+2013-01-07 16:35:55 DEBUG [org.jboss.logging]: Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2013-01-07 16:40:32 DEBUG [org.jboss.logging]: Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2013-01-07 16:42:19 DEBUG [org.jboss.logging]: Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2013-01-07 16:43:31 DEBUG [org.jboss.logging]: Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2013-01-07 16:45:18 DEBUG [org.jboss.logging]: Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2013-01-07 16:47:35 DEBUG [org.jboss.logging]: Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2013-01-07 16:49:33 DEBUG [org.jboss.logging]: Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2013-01-07 16:54:56 DEBUG [org.jboss.logging]: Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2013-01-07 16:54:56 DEBUG [net.sf.ehcache.config.ConfigurationFactory]: Configuring ehcache from URL: jar:file:/E:/work/maven/local/repo/net/sf/ehcache/ehcache-core/2.6.2/ehcache-core-2.6.2.jar!/ehcache-failsafe.xml
+2013-01-07 16:54:56 DEBUG [net.sf.ehcache.config.ConfigurationFactory]: Configuring ehcache from InputStream
+2013-01-07 16:54:56 DEBUG [net.sf.ehcache.config.BeanHandler]: Ignoring ehcache attribute xmlns:xsi
+2013-01-07 16:54:56 DEBUG [net.sf.ehcache.config.BeanHandler]: Ignoring ehcache attribute xsi:noNamespaceSchemaLocation
+2013-01-07 16:54:56 DEBUG [net.sf.ehcache.config.DiskStoreConfiguration]: Disk Store Path: C:\Users\ADMINI~1\AppData\Local\Temp\
+2013-01-07 16:54:56 DEBUG [net.sf.ehcache.util.PropertyUtil]: propertiesString is null.
+2013-01-07 16:54:56 DEBUG [net.sf.ehcache.config.ConfigurationHelper]: No CacheManagerEventListenerFactory class specified. Skipping...
+2013-01-07 16:54:56 DEBUG [net.sf.ehcache.Cache]: No BootstrapCacheLoaderFactory class specified. Skipping...
+2013-01-07 16:54:56 DEBUG [net.sf.ehcache.Cache]: CacheWriter factory not configured. Skipping...
+2013-01-07 16:54:56 DEBUG [net.sf.ehcache.config.ConfigurationHelper]: No CacheExceptionHandlerFactory class specified. Skipping...
+2013-01-07 16:54:56 DEBUG [net.sf.ehcache.store.MemoryStore]: Initialized net.sf.ehcache.store.MemoryStore for org.hibernate.cache.spi.UpdateTimestampsCache
+2013-01-07 16:54:56 DEBUG [net.sf.ehcache.DiskStorePathManager]: Using diskstore path C:\Users\ADMINI~1\AppData\Local\Temp
+2013-01-07 16:54:56 DEBUG [net.sf.ehcache.DiskStorePathManager]: Holding exclusive lock on C:\Users\ADMINI~1\AppData\Local\Temp\.ehcache-diskstore.lock
+2013-01-07 16:54:56 DEBUG [net.sf.ehcache.store.disk.DiskStorageFactory]: Failed to delete file org%002ehibernate%002ecache%002espi%002e%0055pdate%0054imestamps%0043ache.index
+2013-01-07 16:54:56 DEBUG [net.sf.ehcache.store.disk.DiskStorageFactory]: Matching data file missing (or empty) for index file. Deleting index file C:\Users\ADMINI~1\AppData\Local\Temp\org%002ehibernate%002ecache%002espi%002e%0055pdate%0054imestamps%0043ache.index
+2013-01-07 16:54:56 DEBUG [net.sf.ehcache.store.disk.DiskStorageFactory]: Failed to delete file org%002ehibernate%002ecache%002espi%002e%0055pdate%0054imestamps%0043ache.index
+2013-01-07 16:54:56 DEBUG [net.sf.ehcache.Cache]: Initialised cache: org.hibernate.cache.spi.UpdateTimestampsCache
+2013-01-07 16:54:56 DEBUG [net.sf.ehcache.config.ConfigurationHelper]: CacheDecoratorFactory not configured for defaultCache. Skipping for 'org.hibernate.cache.spi.UpdateTimestampsCache'.
+2013-01-07 16:54:56 DEBUG [net.sf.ehcache.store.MemoryStore]: Initialized net.sf.ehcache.store.MemoryStore for org.hibernate.cache.internal.StandardQueryCache
+2013-01-07 16:54:56 DEBUG [net.sf.ehcache.store.disk.DiskStorageFactory]: Failed to delete file org%002ehibernate%002ecache%002einternal%002e%0053tandard%0051uery%0043ache.index
+2013-01-07 16:54:56 DEBUG [net.sf.ehcache.store.disk.DiskStorageFactory]: Matching data file missing (or empty) for index file. Deleting index file C:\Users\ADMINI~1\AppData\Local\Temp\org%002ehibernate%002ecache%002einternal%002e%0053tandard%0051uery%0043ache.index
+2013-01-07 16:54:56 DEBUG [net.sf.ehcache.store.disk.DiskStorageFactory]: Failed to delete file org%002ehibernate%002ecache%002einternal%002e%0053tandard%0051uery%0043ache.index
+2013-01-07 16:54:56 DEBUG [net.sf.ehcache.Cache]: Initialised cache: org.hibernate.cache.internal.StandardQueryCache
+2013-01-07 16:54:56 DEBUG [net.sf.ehcache.config.ConfigurationHelper]: CacheDecoratorFactory not configured for defaultCache. Skipping for 'org.hibernate.cache.internal.StandardQueryCache'.
+2013-01-07 16:58:21 DEBUG [org.jboss.logging]: Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2013-01-07 16:58:22 DEBUG [net.sf.ehcache.config.ConfigurationFactory]: Configuring ehcache from URL: jar:file:/E:/work/maven/local/repo/net/sf/ehcache/ehcache-core/2.6.2/ehcache-core-2.6.2.jar!/ehcache-failsafe.xml
+2013-01-07 16:58:22 DEBUG [net.sf.ehcache.config.ConfigurationFactory]: Configuring ehcache from InputStream
+2013-01-07 16:58:22 DEBUG [net.sf.ehcache.config.BeanHandler]: Ignoring ehcache attribute xmlns:xsi
+2013-01-07 16:58:22 DEBUG [net.sf.ehcache.config.BeanHandler]: Ignoring ehcache attribute xsi:noNamespaceSchemaLocation
+2013-01-07 16:58:22 DEBUG [net.sf.ehcache.config.DiskStoreConfiguration]: Disk Store Path: C:\Users\ADMINI~1\AppData\Local\Temp\
+2013-01-07 16:58:22 DEBUG [net.sf.ehcache.util.PropertyUtil]: propertiesString is null.
+2013-01-07 16:58:22 DEBUG [net.sf.ehcache.config.ConfigurationHelper]: No CacheManagerEventListenerFactory class specified. Skipping...
+2013-01-07 16:58:22 DEBUG [net.sf.ehcache.Cache]: No BootstrapCacheLoaderFactory class specified. Skipping...
+2013-01-07 16:58:22 DEBUG [net.sf.ehcache.Cache]: CacheWriter factory not configured. Skipping...
+2013-01-07 16:58:22 DEBUG [net.sf.ehcache.config.ConfigurationHelper]: No CacheExceptionHandlerFactory class specified. Skipping...
+2013-01-07 16:58:22 DEBUG [net.sf.ehcache.store.MemoryStore]: Initialized net.sf.ehcache.store.MemoryStore for org.hibernate.cache.spi.UpdateTimestampsCache
+2013-01-07 16:58:22 DEBUG [net.sf.ehcache.DiskStorePathManager]: Using diskstore path C:\Users\ADMINI~1\AppData\Local\Temp
+2013-01-07 16:58:22 DEBUG [net.sf.ehcache.DiskStorePathManager]: Holding exclusive lock on C:\Users\ADMINI~1\AppData\Local\Temp\.ehcache-diskstore.lock
+2013-01-07 16:58:22 DEBUG [net.sf.ehcache.store.disk.DiskStorageFactory]: Failed to delete file org%002ehibernate%002ecache%002espi%002e%0055pdate%0054imestamps%0043ache.index
+2013-01-07 16:58:22 DEBUG [net.sf.ehcache.store.disk.DiskStorageFactory]: Matching data file missing (or empty) for index file. Deleting index file C:\Users\ADMINI~1\AppData\Local\Temp\org%002ehibernate%002ecache%002espi%002e%0055pdate%0054imestamps%0043ache.index
+2013-01-07 16:58:22 DEBUG [net.sf.ehcache.store.disk.DiskStorageFactory]: Failed to delete file org%002ehibernate%002ecache%002espi%002e%0055pdate%0054imestamps%0043ache.index
+2013-01-07 16:58:22 DEBUG [net.sf.ehcache.Cache]: Initialised cache: org.hibernate.cache.spi.UpdateTimestampsCache
+2013-01-07 16:58:22 DEBUG [net.sf.ehcache.config.ConfigurationHelper]: CacheDecoratorFactory not configured for defaultCache. Skipping for 'org.hibernate.cache.spi.UpdateTimestampsCache'.
+2013-01-07 16:58:22 DEBUG [net.sf.ehcache.store.MemoryStore]: Initialized net.sf.ehcache.store.MemoryStore for org.hibernate.cache.internal.StandardQueryCache
+2013-01-07 16:58:22 DEBUG [net.sf.ehcache.store.disk.DiskStorageFactory]: Failed to delete file org%002ehibernate%002ecache%002einternal%002e%0053tandard%0051uery%0043ache.index
+2013-01-07 16:58:22 DEBUG [net.sf.ehcache.store.disk.DiskStorageFactory]: Matching data file missing (or empty) for index file. Deleting index file C:\Users\ADMINI~1\AppData\Local\Temp\org%002ehibernate%002ecache%002einternal%002e%0053tandard%0051uery%0043ache.index
+2013-01-07 16:58:22 DEBUG [net.sf.ehcache.store.disk.DiskStorageFactory]: Failed to delete file org%002ehibernate%002ecache%002einternal%002e%0053tandard%0051uery%0043ache.index
+2013-01-07 16:58:22 DEBUG [net.sf.ehcache.Cache]: Initialised cache: org.hibernate.cache.internal.StandardQueryCache
+2013-01-07 16:58:22 DEBUG [net.sf.ehcache.config.ConfigurationHelper]: CacheDecoratorFactory not configured for defaultCache. Skipping for 'org.hibernate.cache.internal.StandardQueryCache'.
+2013-01-07 16:58:39 DEBUG [org.mini.service.impl.SessionServiceImpl]: service注入成功了
+2013-01-07 16:58:39 DEBUG [org.mini.service.impl.SessionServiceImpl]: dao注入成功了
+2013-01-07 16:58:47 DEBUG [org.mini.service.impl.SessionServiceImpl]: service注入成功了
+2013-01-07 16:58:47 DEBUG [org.mini.service.impl.SessionServiceImpl]: dao注入成功了
+2013-01-07 16:58:51 DEBUG [org.mini.service.impl.SessionServiceImpl]: service注入成功了
+2013-01-07 16:58:51 DEBUG [org.mini.service.impl.SessionServiceImpl]: dao注入成功了
+2013-01-07 16:59:37 DEBUG [org.jboss.logging]: Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2013-01-07 16:59:37 DEBUG [net.sf.ehcache.config.ConfigurationFactory]: Configuring ehcache from URL: jar:file:/E:/work/maven/local/repo/net/sf/ehcache/ehcache-core/2.6.2/ehcache-core-2.6.2.jar!/ehcache-failsafe.xml
+2013-01-07 16:59:37 DEBUG [net.sf.ehcache.config.ConfigurationFactory]: Configuring ehcache from InputStream
+2013-01-07 16:59:37 DEBUG [net.sf.ehcache.config.BeanHandler]: Ignoring ehcache attribute xmlns:xsi
+2013-01-07 16:59:37 DEBUG [net.sf.ehcache.config.BeanHandler]: Ignoring ehcache attribute xsi:noNamespaceSchemaLocation
+2013-01-07 16:59:37 DEBUG [net.sf.ehcache.config.DiskStoreConfiguration]: Disk Store Path: C:\Users\ADMINI~1\AppData\Local\Temp\
+2013-01-07 16:59:37 DEBUG [net.sf.ehcache.util.PropertyUtil]: propertiesString is null.
+2013-01-07 16:59:37 DEBUG [net.sf.ehcache.config.ConfigurationHelper]: No CacheManagerEventListenerFactory class specified. Skipping...
+2013-01-07 16:59:37 DEBUG [net.sf.ehcache.Cache]: No BootstrapCacheLoaderFactory class specified. Skipping...
+2013-01-07 16:59:37 DEBUG [net.sf.ehcache.Cache]: CacheWriter factory not configured. Skipping...
+2013-01-07 16:59:37 DEBUG [net.sf.ehcache.config.ConfigurationHelper]: No CacheExceptionHandlerFactory class specified. Skipping...
+2013-01-07 16:59:37 DEBUG [net.sf.ehcache.store.MemoryStore]: Initialized net.sf.ehcache.store.MemoryStore for org.hibernate.cache.spi.UpdateTimestampsCache
+2013-01-07 16:59:37 DEBUG [net.sf.ehcache.DiskStorePathManager]: Using diskstore path C:\Users\ADMINI~1\AppData\Local\Temp
+2013-01-07 16:59:37 DEBUG [net.sf.ehcache.DiskStorePathManager]: Holding exclusive lock on C:\Users\ADMINI~1\AppData\Local\Temp\.ehcache-diskstore.lock
+2013-01-07 16:59:37 DEBUG [net.sf.ehcache.store.disk.DiskStorageFactory]: Failed to delete file org%002ehibernate%002ecache%002espi%002e%0055pdate%0054imestamps%0043ache.index
+2013-01-07 16:59:37 DEBUG [net.sf.ehcache.store.disk.DiskStorageFactory]: Matching data file missing (or empty) for index file. Deleting index file C:\Users\ADMINI~1\AppData\Local\Temp\org%002ehibernate%002ecache%002espi%002e%0055pdate%0054imestamps%0043ache.index
+2013-01-07 16:59:37 DEBUG [net.sf.ehcache.store.disk.DiskStorageFactory]: Failed to delete file org%002ehibernate%002ecache%002espi%002e%0055pdate%0054imestamps%0043ache.index
+2013-01-07 16:59:37 DEBUG [net.sf.ehcache.Cache]: Initialised cache: org.hibernate.cache.spi.UpdateTimestampsCache
+2013-01-07 16:59:37 DEBUG [net.sf.ehcache.config.ConfigurationHelper]: CacheDecoratorFactory not configured for defaultCache. Skipping for 'org.hibernate.cache.spi.UpdateTimestampsCache'.
+2013-01-07 16:59:38 DEBUG [net.sf.ehcache.store.MemoryStore]: Initialized net.sf.ehcache.store.MemoryStore for org.hibernate.cache.internal.StandardQueryCache
+2013-01-07 16:59:38 DEBUG [net.sf.ehcache.store.disk.DiskStorageFactory]: Failed to delete file org%002ehibernate%002ecache%002einternal%002e%0053tandard%0051uery%0043ache.index
+2013-01-07 16:59:38 DEBUG [net.sf.ehcache.store.disk.DiskStorageFactory]: Matching data file missing (or empty) for index file. Deleting index file C:\Users\ADMINI~1\AppData\Local\Temp\org%002ehibernate%002ecache%002einternal%002e%0053tandard%0051uery%0043ache.index
+2013-01-07 16:59:38 DEBUG [net.sf.ehcache.store.disk.DiskStorageFactory]: Failed to delete file org%002ehibernate%002ecache%002einternal%002e%0053tandard%0051uery%0043ache.index
+2013-01-07 16:59:38 DEBUG [net.sf.ehcache.Cache]: Initialised cache: org.hibernate.cache.internal.StandardQueryCache
+2013-01-07 16:59:38 DEBUG [net.sf.ehcache.config.ConfigurationHelper]: CacheDecoratorFactory not configured for defaultCache. Skipping for 'org.hibernate.cache.internal.StandardQueryCache'.
+2013-01-07 17:00:41 DEBUG [org.jboss.logging]: Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2013-01-07 17:00:41 DEBUG [net.sf.ehcache.config.ConfigurationFactory]: Configuring ehcache from URL: jar:file:/E:/work/maven/local/repo/net/sf/ehcache/ehcache-core/2.6.2/ehcache-core-2.6.2.jar!/ehcache-failsafe.xml
+2013-01-07 17:00:41 DEBUG [net.sf.ehcache.config.ConfigurationFactory]: Configuring ehcache from InputStream
+2013-01-07 17:00:41 DEBUG [net.sf.ehcache.config.BeanHandler]: Ignoring ehcache attribute xmlns:xsi
+2013-01-07 17:00:41 DEBUG [net.sf.ehcache.config.BeanHandler]: Ignoring ehcache attribute xsi:noNamespaceSchemaLocation
+2013-01-07 17:00:41 DEBUG [net.sf.ehcache.config.DiskStoreConfiguration]: Disk Store Path: C:\Users\ADMINI~1\AppData\Local\Temp\
+2013-01-07 17:00:41 DEBUG [net.sf.ehcache.util.PropertyUtil]: propertiesString is null.
+2013-01-07 17:00:41 DEBUG [net.sf.ehcache.config.ConfigurationHelper]: No CacheManagerEventListenerFactory class specified. Skipping...
+2013-01-07 17:00:41 DEBUG [net.sf.ehcache.Cache]: No BootstrapCacheLoaderFactory class specified. Skipping...
+2013-01-07 17:00:41 DEBUG [net.sf.ehcache.Cache]: CacheWriter factory not configured. Skipping...
+2013-01-07 17:00:41 DEBUG [net.sf.ehcache.config.ConfigurationHelper]: No CacheExceptionHandlerFactory class specified. Skipping...
+2013-01-07 17:00:41 DEBUG [net.sf.ehcache.store.MemoryStore]: Initialized net.sf.ehcache.store.MemoryStore for org.hibernate.cache.spi.UpdateTimestampsCache
+2013-01-07 17:00:41 DEBUG [net.sf.ehcache.DiskStorePathManager]: Using diskstore path C:\Users\ADMINI~1\AppData\Local\Temp
+2013-01-07 17:00:41 DEBUG [net.sf.ehcache.DiskStorePathManager]: Holding exclusive lock on C:\Users\ADMINI~1\AppData\Local\Temp\.ehcache-diskstore.lock
+2013-01-07 17:00:41 DEBUG [net.sf.ehcache.store.disk.DiskStorageFactory]: Failed to delete file org%002ehibernate%002ecache%002espi%002e%0055pdate%0054imestamps%0043ache.index
+2013-01-07 17:00:41 DEBUG [net.sf.ehcache.store.disk.DiskStorageFactory]: Matching data file missing (or empty) for index file. Deleting index file C:\Users\ADMINI~1\AppData\Local\Temp\org%002ehibernate%002ecache%002espi%002e%0055pdate%0054imestamps%0043ache.index
+2013-01-07 17:00:41 DEBUG [net.sf.ehcache.store.disk.DiskStorageFactory]: Failed to delete file org%002ehibernate%002ecache%002espi%002e%0055pdate%0054imestamps%0043ache.index
+2013-01-07 17:00:41 DEBUG [net.sf.ehcache.Cache]: Initialised cache: org.hibernate.cache.spi.UpdateTimestampsCache
+2013-01-07 17:00:41 DEBUG [net.sf.ehcache.config.ConfigurationHelper]: CacheDecoratorFactory not configured for defaultCache. Skipping for 'org.hibernate.cache.spi.UpdateTimestampsCache'.
+2013-01-07 17:00:41 DEBUG [net.sf.ehcache.store.MemoryStore]: Initialized net.sf.ehcache.store.MemoryStore for org.hibernate.cache.internal.StandardQueryCache
+2013-01-07 17:00:41 DEBUG [net.sf.ehcache.store.disk.DiskStorageFactory]: Failed to delete file org%002ehibernate%002ecache%002einternal%002e%0053tandard%0051uery%0043ache.index
+2013-01-07 17:00:41 DEBUG [net.sf.ehcache.store.disk.DiskStorageFactory]: Matching data file missing (or empty) for index file. Deleting index file C:\Users\ADMINI~1\AppData\Local\Temp\org%002ehibernate%002ecache%002einternal%002e%0053tandard%0051uery%0043ache.index
+2013-01-07 17:00:41 DEBUG [net.sf.ehcache.store.disk.DiskStorageFactory]: Failed to delete file org%002ehibernate%002ecache%002einternal%002e%0053tandard%0051uery%0043ache.index
+2013-01-07 17:00:41 DEBUG [net.sf.ehcache.Cache]: Initialised cache: org.hibernate.cache.internal.StandardQueryCache
+2013-01-07 17:00:41 DEBUG [net.sf.ehcache.config.ConfigurationHelper]: CacheDecoratorFactory not configured for defaultCache. Skipping for 'org.hibernate.cache.internal.StandardQueryCache'.
+2013-01-07 17:07:39 DEBUG [org.jboss.logging]: Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2013-01-07 17:07:40 DEBUG [net.sf.ehcache.config.ConfigurationFactory]: Configuring ehcache from URL: jar:file:/E:/work/maven/local/repo/net/sf/ehcache/ehcache-core/2.6.2/ehcache-core-2.6.2.jar!/ehcache-failsafe.xml
+2013-01-07 17:07:40 DEBUG [net.sf.ehcache.config.ConfigurationFactory]: Configuring ehcache from InputStream
+2013-01-07 17:07:40 DEBUG [net.sf.ehcache.config.BeanHandler]: Ignoring ehcache attribute xmlns:xsi
+2013-01-07 17:07:40 DEBUG [net.sf.ehcache.config.BeanHandler]: Ignoring ehcache attribute xsi:noNamespaceSchemaLocation
+2013-01-07 17:07:40 DEBUG [net.sf.ehcache.config.DiskStoreConfiguration]: Disk Store Path: C:\Users\ADMINI~1\AppData\Local\Temp\
+2013-01-07 17:07:40 DEBUG [net.sf.ehcache.util.PropertyUtil]: propertiesString is null.
+2013-01-07 17:07:40 DEBUG [net.sf.ehcache.config.ConfigurationHelper]: No CacheManagerEventListenerFactory class specified. Skipping...
+2013-01-07 17:07:40 DEBUG [net.sf.ehcache.Cache]: No BootstrapCacheLoaderFactory class specified. Skipping...
+2013-01-07 17:07:40 DEBUG [net.sf.ehcache.Cache]: CacheWriter factory not configured. Skipping...
+2013-01-07 17:07:40 DEBUG [net.sf.ehcache.config.ConfigurationHelper]: No CacheExceptionHandlerFactory class specified. Skipping...
+2013-01-07 17:07:40 DEBUG [net.sf.ehcache.store.MemoryStore]: Initialized net.sf.ehcache.store.MemoryStore for org.hibernate.cache.spi.UpdateTimestampsCache
+2013-01-07 17:07:40 DEBUG [net.sf.ehcache.DiskStorePathManager]: Using diskstore path C:\Users\ADMINI~1\AppData\Local\Temp
+2013-01-07 17:07:40 DEBUG [net.sf.ehcache.DiskStorePathManager]: Holding exclusive lock on C:\Users\ADMINI~1\AppData\Local\Temp\.ehcache-diskstore.lock
+2013-01-07 17:07:40 DEBUG [net.sf.ehcache.store.disk.DiskStorageFactory]: Failed to delete file org%002ehibernate%002ecache%002espi%002e%0055pdate%0054imestamps%0043ache.index
+2013-01-07 17:07:40 DEBUG [net.sf.ehcache.store.disk.DiskStorageFactory]: Matching data file missing (or empty) for index file. Deleting index file C:\Users\ADMINI~1\AppData\Local\Temp\org%002ehibernate%002ecache%002espi%002e%0055pdate%0054imestamps%0043ache.index
+2013-01-07 17:07:40 DEBUG [net.sf.ehcache.store.disk.DiskStorageFactory]: Failed to delete file org%002ehibernate%002ecache%002espi%002e%0055pdate%0054imestamps%0043ache.index
+2013-01-07 17:07:40 DEBUG [net.sf.ehcache.Cache]: Initialised cache: org.hibernate.cache.spi.UpdateTimestampsCache
+2013-01-07 17:07:40 DEBUG [net.sf.ehcache.config.ConfigurationHelper]: CacheDecoratorFactory not configured for defaultCache. Skipping for 'org.hibernate.cache.spi.UpdateTimestampsCache'.
+2013-01-07 17:07:40 DEBUG [net.sf.ehcache.store.MemoryStore]: Initialized net.sf.ehcache.store.MemoryStore for org.hibernate.cache.internal.StandardQueryCache
+2013-01-07 17:07:40 DEBUG [net.sf.ehcache.store.disk.DiskStorageFactory]: Failed to delete file org%002ehibernate%002ecache%002einternal%002e%0053tandard%0051uery%0043ache.index
+2013-01-07 17:07:40 DEBUG [net.sf.ehcache.store.disk.DiskStorageFactory]: Matching data file missing (or empty) for index file. Deleting index file C:\Users\ADMINI~1\AppData\Local\Temp\org%002ehibernate%002ecache%002einternal%002e%0053tandard%0051uery%0043ache.index
+2013-01-07 17:07:40 DEBUG [net.sf.ehcache.store.disk.DiskStorageFactory]: Failed to delete file org%002ehibernate%002ecache%002einternal%002e%0053tandard%0051uery%0043ache.index
+2013-01-07 17:07:40 DEBUG [net.sf.ehcache.Cache]: Initialised cache: org.hibernate.cache.internal.StandardQueryCache
+2013-01-07 17:07:40 DEBUG [net.sf.ehcache.config.ConfigurationHelper]: CacheDecoratorFactory not configured for defaultCache. Skipping for 'org.hibernate.cache.internal.StandardQueryCache'.
+2013-01-07 17:07:50 DEBUG [org.mini.service.impl.SessionServiceImpl]: service注入成功了
+2013-01-07 17:07:50 DEBUG [org.mini.service.impl.SessionServiceImpl]: dao注入成功了
+2013-01-07 17:07:58 DEBUG [org.mini.service.impl.SessionServiceImpl]: service注入成功了
+2013-01-07 17:07:58 DEBUG [org.mini.service.impl.SessionServiceImpl]: dao注入成功了
+2013-01-07 17:07:58 DEBUG [freemarker.cache]: Could not find template in cache, creating new one; id=["org/apache/struts2/dispatcher/error.ftl"["zh_CN",UTF-8,parsed] ]
+2013-01-07 17:07:58 DEBUG [freemarker.cache]: Compiling FreeMarker template "org/apache/struts2/dispatcher/error.ftl"["zh_CN",UTF-8,parsed]  from "jar:file:/E:/work/maven/local/repo/org/apache/struts/struts2-core/2.3.7/struts2-core-2.3.7.jar!/org/apache/struts2/dispatcher/error.ftl"
+2013-01-07 17:07:58 DEBUG [freemarker.beans]: Key "location" was not found on instance of org.apache.struts2.json.JSONException. Introspection information for the class is: {getClass=public final native java.lang.Class java.lang.Object.getClass(), localizedMessage=java.beans.PropertyDescriptor@233fcc66, cause=java.beans.PropertyDescriptor@3324d037, getMessage=public java.lang.String java.lang.Throwable.getMessage(), getCause=public java.lang.Throwable java.lang.Throwable.getCause(), equals=public boolean java.lang.Object.equals(java.lang.Object), java.lang.Object@2c90c96c={public void java.lang.Throwable.setStackTrace(java.lang.StackTraceElement[])=[Ljava.lang.Class;@d6a73ea, public boolean java.lang.Object.equals(java.lang.Object)=[Ljava.lang.Class;@47e00e87, public java.lang.StackTraceElement[] java.lang.Throwable.getStackTrace()=[Ljava.lang.Class;@46d9e5ee, public java.lang.Throwable java.lang.Throwable.getCause()=[Ljava.lang.Class;@b869099, public java.lang.String java.lang.Throwable.getMessage()=[Ljava.lang.Class;@2f7f32b8, public final native java.lang.Class java.lang.Object.getClass()=[Ljava.lang.Class;@47dae664, public java.lang.String java.lang.Throwable.getLocalizedMessage()=[Ljava.lang.Class;@744bd416, public synchronized native java.lang.Throwable java.lang.Throwable.fillInStackTrace()=[Ljava.lang.Class;@1e512c00, public synchronized java.lang.Throwable java.lang.Throwable.initCause(java.lang.Throwable)=[Ljava.lang.Class;@631fc38c, public native int java.lang.Object.hashCode()=[Ljava.lang.Class;@3a5f4f2b, public java.lang.String java.lang.Throwable.toString()=[Ljava.lang.Class;@4746adfd}, hashCode=public native int java.lang.Object.hashCode(), class=java.beans.PropertyDescriptor@f13f3fae, fillInStackTrace=public synchronized native java.lang.Throwable java.lang.Throwable.fillInStackTrace(), stackTrace=java.beans.PropertyDescriptor@c821fe0c, message=java.beans.PropertyDescriptor@8a556d5f, getStackTrace=public java.lang.StackTraceElement[] java.lang.Throwable.getStackTrace(), setStackTrace=public void java.lang.Throwable.setStackTrace(java.lang.StackTraceElement[]), java.lang.Object@76ecb72a=freemarker.ext.beans.MethodMap@7148e199, toString=public java.lang.String java.lang.Throwable.toString(), initCause=public synchronized java.lang.Throwable java.lang.Throwable.initCause(java.lang.Throwable), printStackTrace=freemarker.ext.beans.MethodMap@67d33de9, getLocalizedMessage=public java.lang.String java.lang.Throwable.getLocalizedMessage()}
+2013-01-07 17:07:58 DEBUG [freemarker.beans]: Key "location" was not found on instance of org.apache.struts2.json.JSONException. Introspection information for the class is: {getClass=public final native java.lang.Class java.lang.Object.getClass(), localizedMessage=java.beans.PropertyDescriptor@233fcc66, cause=java.beans.PropertyDescriptor@3324d037, getMessage=public java.lang.String java.lang.Throwable.getMessage(), getCause=public java.lang.Throwable java.lang.Throwable.getCause(), equals=public boolean java.lang.Object.equals(java.lang.Object), java.lang.Object@2c90c96c={public void java.lang.Throwable.setStackTrace(java.lang.StackTraceElement[])=[Ljava.lang.Class;@d6a73ea, public boolean java.lang.Object.equals(java.lang.Object)=[Ljava.lang.Class;@47e00e87, public java.lang.StackTraceElement[] java.lang.Throwable.getStackTrace()=[Ljava.lang.Class;@46d9e5ee, public java.lang.Throwable java.lang.Throwable.getCause()=[Ljava.lang.Class;@b869099, public java.lang.String java.lang.Throwable.getMessage()=[Ljava.lang.Class;@2f7f32b8, public final native java.lang.Class java.lang.Object.getClass()=[Ljava.lang.Class;@47dae664, public java.lang.String java.lang.Throwable.getLocalizedMessage()=[Ljava.lang.Class;@744bd416, public synchronized native java.lang.Throwable java.lang.Throwable.fillInStackTrace()=[Ljava.lang.Class;@1e512c00, public synchronized java.lang.Throwable java.lang.Throwable.initCause(java.lang.Throwable)=[Ljava.lang.Class;@631fc38c, public native int java.lang.Object.hashCode()=[Ljava.lang.Class;@3a5f4f2b, public java.lang.String java.lang.Throwable.toString()=[Ljava.lang.Class;@4746adfd}, hashCode=public native int java.lang.Object.hashCode(), class=java.beans.PropertyDescriptor@f13f3fae, fillInStackTrace=public synchronized native java.lang.Throwable java.lang.Throwable.fillInStackTrace(), stackTrace=java.beans.PropertyDescriptor@c821fe0c, message=java.beans.PropertyDescriptor@8a556d5f, getStackTrace=public java.lang.StackTraceElement[] java.lang.Throwable.getStackTrace(), setStackTrace=public void java.lang.Throwable.setStackTrace(java.lang.StackTraceElement[]), java.lang.Object@76ecb72a=freemarker.ext.beans.MethodMap@7148e199, toString=public java.lang.String java.lang.Throwable.toString(), initCause=public synchronized java.lang.Throwable java.lang.Throwable.initCause(java.lang.Throwable), printStackTrace=freemarker.ext.beans.MethodMap@67d33de9, getLocalizedMessage=public java.lang.String java.lang.Throwable.getLocalizedMessage()}
+2013-01-07 17:07:58 DEBUG [freemarker.beans]: Key "location" was not found on instance of java.lang.reflect.InvocationTargetException. Introspection information for the class is: {getClass=public final native java.lang.Class java.lang.Object.getClass(), localizedMessage=java.beans.PropertyDescriptor@233fcc66, cause=java.beans.PropertyDescriptor@9ae5296, getCause=public java.lang.Throwable java.lang.reflect.InvocationTargetException.getCause(), getMessage=public java.lang.String java.lang.Throwable.getMessage(), equals=public boolean java.lang.Object.equals(java.lang.Object), java.lang.Object@2c90c96c={public void java.lang.Throwable.setStackTrace(java.lang.StackTraceElement[])=[Ljava.lang.Class;@6848685b, public boolean java.lang.Object.equals(java.lang.Object)=[Ljava.lang.Class;@69bb63d9, public java.lang.Throwable java.lang.reflect.InvocationTargetException.getCause()=[Ljava.lang.Class;@d9871ca, public java.lang.StackTraceElement[] java.lang.Throwable.getStackTrace()=[Ljava.lang.Class;@13568bbf, public java.lang.String java.lang.Throwable.getMessage()=[Ljava.lang.Class;@16f0b284, public final native java.lang.Class java.lang.Object.getClass()=[Ljava.lang.Class;@145803e0, public java.lang.String java.lang.Throwable.getLocalizedMessage()=[Ljava.lang.Class;@1e66718f, public synchronized native java.lang.Throwable java.lang.Throwable.fillInStackTrace()=[Ljava.lang.Class;@57a972e0, public synchronized java.lang.Throwable java.lang.Throwable.initCause(java.lang.Throwable)=[Ljava.lang.Class;@35b4fd16, public native int java.lang.Object.hashCode()=[Ljava.lang.Class;@7d53cae5, public java.lang.Throwable java.lang.reflect.InvocationTargetException.getTargetException()=[Ljava.lang.Class;@82dc0ab, public java.lang.String java.lang.Throwable.toString()=[Ljava.lang.Class;@73c41ebe}, hashCode=public native int java.lang.Object.hashCode(), class=java.beans.PropertyDescriptor@f13f3fae, fillInStackTrace=public synchronized native java.lang.Throwable java.lang.Throwable.fillInStackTrace(), targetException=java.beans.PropertyDescriptor@d440241f, stackTrace=java.beans.PropertyDescriptor@c821fe0c, message=java.beans.PropertyDescriptor@8a556d5f, getStackTrace=public java.lang.StackTraceElement[] java.lang.Throwable.getStackTrace(), setStackTrace=public void java.lang.Throwable.setStackTrace(java.lang.StackTraceElement[]), getTargetException=public java.lang.Throwable java.lang.reflect.InvocationTargetException.getTargetException(), java.lang.Object@76ecb72a=freemarker.ext.beans.MethodMap@50be8752, toString=public java.lang.String java.lang.Throwable.toString(), initCause=public synchronized java.lang.Throwable java.lang.Throwable.initCause(java.lang.Throwable), printStackTrace=freemarker.ext.beans.MethodMap@ca641e8, getLocalizedMessage=public java.lang.String java.lang.Throwable.getLocalizedMessage()}
+2013-01-07 17:07:58 DEBUG [freemarker.beans]: Key "location" was not found on instance of java.lang.IllegalStateException. Introspection information for the class is: {getClass=public final native java.lang.Class java.lang.Object.getClass(), localizedMessage=java.beans.PropertyDescriptor@233fcc66, cause=java.beans.PropertyDescriptor@3324d037, getMessage=public java.lang.String java.lang.Throwable.getMessage(), getCause=public java.lang.Throwable java.lang.Throwable.getCause(), equals=public boolean java.lang.Object.equals(java.lang.Object), java.lang.Object@2c90c96c={public void java.lang.Throwable.setStackTrace(java.lang.StackTraceElement[])=[Ljava.lang.Class;@7730ecd4, public boolean java.lang.Object.equals(java.lang.Object)=[Ljava.lang.Class;@2d0c8f6e, public java.lang.StackTraceElement[] java.lang.Throwable.getStackTrace()=[Ljava.lang.Class;@139c95dd, public java.lang.Throwable java.lang.Throwable.getCause()=[Ljava.lang.Class;@d32ea3a, public java.lang.String java.lang.Throwable.getMessage()=[Ljava.lang.Class;@9af8c9b, public final native java.lang.Class java.lang.Object.getClass()=[Ljava.lang.Class;@64381914, public java.lang.String java.lang.Throwable.getLocalizedMessage()=[Ljava.lang.Class;@1ef6a373, public synchronized native java.lang.Throwable java.lang.Throwable.fillInStackTrace()=[Ljava.lang.Class;@5264e2e6, public synchronized java.lang.Throwable java.lang.Throwable.initCause(java.lang.Throwable)=[Ljava.lang.Class;@5d6c944c, public native int java.lang.Object.hashCode()=[Ljava.lang.Class;@37c397f, public java.lang.String java.lang.Throwable.toString()=[Ljava.lang.Class;@50a2c2a2}, hashCode=public native int java.lang.Object.hashCode(), class=java.beans.PropertyDescriptor@f13f3fae, fillInStackTrace=public synchronized native java.lang.Throwable java.lang.Throwable.fillInStackTrace(), stackTrace=java.beans.PropertyDescriptor@c821fe0c, message=java.beans.PropertyDescriptor@8a556d5f, getStackTrace=public java.lang.StackTraceElement[] java.lang.Throwable.getStackTrace(), setStackTrace=public void java.lang.Throwable.setStackTrace(java.lang.StackTraceElement[]), java.lang.Object@76ecb72a=freemarker.ext.beans.MethodMap@6d984309, toString=public java.lang.String java.lang.Throwable.toString(), initCause=public synchronized java.lang.Throwable java.lang.Throwable.initCause(java.lang.Throwable), printStackTrace=freemarker.ext.beans.MethodMap@27593c15, getLocalizedMessage=public java.lang.String java.lang.Throwable.getLocalizedMessage()}
+2013-01-07 17:08:00 DEBUG [org.mini.service.impl.SessionServiceImpl]: service注入成功了
+2013-01-07 17:08:00 DEBUG [org.mini.service.impl.SessionServiceImpl]: dao注入成功了
+2013-01-07 17:08:00 DEBUG [freemarker.cache]: "org/apache/struts2/dispatcher/error.ftl"["zh_CN",UTF-8,parsed]  using cached since jar:file:/E:/work/maven/local/repo/org/apache/struts/struts2-core/2.3.7/struts2-core-2.3.7.jar!/org/apache/struts2/dispatcher/error.ftl didn't change.
+2013-01-07 17:08:00 DEBUG [freemarker.beans]: Key "location" was not found on instance of org.apache.struts2.json.JSONException. Introspection information for the class is: {getClass=public final native java.lang.Class java.lang.Object.getClass(), localizedMessage=java.beans.PropertyDescriptor@233fcc66, cause=java.beans.PropertyDescriptor@3324d037, getMessage=public java.lang.String java.lang.Throwable.getMessage(), getCause=public java.lang.Throwable java.lang.Throwable.getCause(), equals=public boolean java.lang.Object.equals(java.lang.Object), java.lang.Object@2c90c96c={public void java.lang.Throwable.setStackTrace(java.lang.StackTraceElement[])=[Ljava.lang.Class;@d6a73ea, public boolean java.lang.Object.equals(java.lang.Object)=[Ljava.lang.Class;@47e00e87, public java.lang.StackTraceElement[] java.lang.Throwable.getStackTrace()=[Ljava.lang.Class;@46d9e5ee, public java.lang.Throwable java.lang.Throwable.getCause()=[Ljava.lang.Class;@b869099, public java.lang.String java.lang.Throwable.getMessage()=[Ljava.lang.Class;@2f7f32b8, public final native java.lang.Class java.lang.Object.getClass()=[Ljava.lang.Class;@47dae664, public java.lang.String java.lang.Throwable.getLocalizedMessage()=[Ljava.lang.Class;@744bd416, public synchronized native java.lang.Throwable java.lang.Throwable.fillInStackTrace()=[Ljava.lang.Class;@1e512c00, public synchronized java.lang.Throwable java.lang.Throwable.initCause(java.lang.Throwable)=[Ljava.lang.Class;@631fc38c, public native int java.lang.Object.hashCode()=[Ljava.lang.Class;@3a5f4f2b, public java.lang.String java.lang.Throwable.toString()=[Ljava.lang.Class;@4746adfd}, hashCode=public native int java.lang.Object.hashCode(), class=java.beans.PropertyDescriptor@f13f3fae, fillInStackTrace=public synchronized native java.lang.Throwable java.lang.Throwable.fillInStackTrace(), stackTrace=java.beans.PropertyDescriptor@c821fe0c, message=java.beans.PropertyDescriptor@8a556d5f, getStackTrace=public java.lang.StackTraceElement[] java.lang.Throwable.getStackTrace(), setStackTrace=public void java.lang.Throwable.setStackTrace(java.lang.StackTraceElement[]), java.lang.Object@76ecb72a=freemarker.ext.beans.MethodMap@7148e199, toString=public java.lang.String java.lang.Throwable.toString(), initCause=public synchronized java.lang.Throwable java.lang.Throwable.initCause(java.lang.Throwable), printStackTrace=freemarker.ext.beans.MethodMap@67d33de9, getLocalizedMessage=public java.lang.String java.lang.Throwable.getLocalizedMessage()}
+2013-01-07 17:08:00 DEBUG [freemarker.beans]: Key "location" was not found on instance of org.apache.struts2.json.JSONException. Introspection information for the class is: {getClass=public final native java.lang.Class java.lang.Object.getClass(), localizedMessage=java.beans.PropertyDescriptor@233fcc66, cause=java.beans.PropertyDescriptor@3324d037, getMessage=public java.lang.String java.lang.Throwable.getMessage(), getCause=public java.lang.Throwable java.lang.Throwable.getCause(), equals=public boolean java.lang.Object.equals(java.lang.Object), java.lang.Object@2c90c96c={public void java.lang.Throwable.setStackTrace(java.lang.StackTraceElement[])=[Ljava.lang.Class;@d6a73ea, public boolean java.lang.Object.equals(java.lang.Object)=[Ljava.lang.Class;@47e00e87, public java.lang.StackTraceElement[] java.lang.Throwable.getStackTrace()=[Ljava.lang.Class;@46d9e5ee, public java.lang.Throwable java.lang.Throwable.getCause()=[Ljava.lang.Class;@b869099, public java.lang.String java.lang.Throwable.getMessage()=[Ljava.lang.Class;@2f7f32b8, public final native java.lang.Class java.lang.Object.getClass()=[Ljava.lang.Class;@47dae664, public java.lang.String java.lang.Throwable.getLocalizedMessage()=[Ljava.lang.Class;@744bd416, public synchronized native java.lang.Throwable java.lang.Throwable.fillInStackTrace()=[Ljava.lang.Class;@1e512c00, public synchronized java.lang.Throwable java.lang.Throwable.initCause(java.lang.Throwable)=[Ljava.lang.Class;@631fc38c, public native int java.lang.Object.hashCode()=[Ljava.lang.Class;@3a5f4f2b, public java.lang.String java.lang.Throwable.toString()=[Ljava.lang.Class;@4746adfd}, hashCode=public native int java.lang.Object.hashCode(), class=java.beans.PropertyDescriptor@f13f3fae, fillInStackTrace=public synchronized native java.lang.Throwable java.lang.Throwable.fillInStackTrace(), stackTrace=java.beans.PropertyDescriptor@c821fe0c, message=java.beans.PropertyDescriptor@8a556d5f, getStackTrace=public java.lang.StackTraceElement[] java.lang.Throwable.getStackTrace(), setStackTrace=public void java.lang.Throwable.setStackTrace(java.lang.StackTraceElement[]), java.lang.Object@76ecb72a=freemarker.ext.beans.MethodMap@7148e199, toString=public java.lang.String java.lang.Throwable.toString(), initCause=public synchronized java.lang.Throwable java.lang.Throwable.initCause(java.lang.Throwable), printStackTrace=freemarker.ext.beans.MethodMap@67d33de9, getLocalizedMessage=public java.lang.String java.lang.Throwable.getLocalizedMessage()}
+2013-01-07 17:08:00 DEBUG [freemarker.beans]: Key "location" was not found on instance of java.lang.reflect.InvocationTargetException. Introspection information for the class is: {getClass=public final native java.lang.Class java.lang.Object.getClass(), localizedMessage=java.beans.PropertyDescriptor@233fcc66, cause=java.beans.PropertyDescriptor@9ae5296, getCause=public java.lang.Throwable java.lang.reflect.InvocationTargetException.getCause(), getMessage=public java.lang.String java.lang.Throwable.getMessage(), equals=public boolean java.lang.Object.equals(java.lang.Object), java.lang.Object@2c90c96c={public void java.lang.Throwable.setStackTrace(java.lang.StackTraceElement[])=[Ljava.lang.Class;@6848685b, public boolean java.lang.Object.equals(java.lang.Object)=[Ljava.lang.Class;@69bb63d9, public java.lang.Throwable java.lang.reflect.InvocationTargetException.getCause()=[Ljava.lang.Class;@d9871ca, public java.lang.StackTraceElement[] java.lang.Throwable.getStackTrace()=[Ljava.lang.Class;@13568bbf, public java.lang.String java.lang.Throwable.getMessage()=[Ljava.lang.Class;@16f0b284, public final native java.lang.Class java.lang.Object.getClass()=[Ljava.lang.Class;@145803e0, public java.lang.String java.lang.Throwable.getLocalizedMessage()=[Ljava.lang.Class;@1e66718f, public synchronized native java.lang.Throwable java.lang.Throwable.fillInStackTrace()=[Ljava.lang.Class;@57a972e0, public synchronized java.lang.Throwable java.lang.Throwable.initCause(java.lang.Throwable)=[Ljava.lang.Class;@35b4fd16, public native int java.lang.Object.hashCode()=[Ljava.lang.Class;@7d53cae5, public java.lang.Throwable java.lang.reflect.InvocationTargetException.getTargetException()=[Ljava.lang.Class;@82dc0ab, public java.lang.String java.lang.Throwable.toString()=[Ljava.lang.Class;@73c41ebe}, hashCode=public native int java.lang.Object.hashCode(), class=java.beans.PropertyDescriptor@f13f3fae, fillInStackTrace=public synchronized native java.lang.Throwable java.lang.Throwable.fillInStackTrace(), targetException=java.beans.PropertyDescriptor@d440241f, stackTrace=java.beans.PropertyDescriptor@c821fe0c, message=java.beans.PropertyDescriptor@8a556d5f, getStackTrace=public java.lang.StackTraceElement[] java.lang.Throwable.getStackTrace(), setStackTrace=public void java.lang.Throwable.setStackTrace(java.lang.StackTraceElement[]), getTargetException=public java.lang.Throwable java.lang.reflect.InvocationTargetException.getTargetException(), java.lang.Object@76ecb72a=freemarker.ext.beans.MethodMap@50be8752, toString=public java.lang.String java.lang.Throwable.toString(), initCause=public synchronized java.lang.Throwable java.lang.Throwable.initCause(java.lang.Throwable), printStackTrace=freemarker.ext.beans.MethodMap@ca641e8, getLocalizedMessage=public java.lang.String java.lang.Throwable.getLocalizedMessage()}
+2013-01-07 17:08:00 DEBUG [freemarker.beans]: Key "location" was not found on instance of java.lang.IllegalStateException. Introspection information for the class is: {getClass=public final native java.lang.Class java.lang.Object.getClass(), localizedMessage=java.beans.PropertyDescriptor@233fcc66, cause=java.beans.PropertyDescriptor@3324d037, getMessage=public java.lang.String java.lang.Throwable.getMessage(), getCause=public java.lang.Throwable java.lang.Throwable.getCause(), equals=public boolean java.lang.Object.equals(java.lang.Object), java.lang.Object@2c90c96c={public void java.lang.Throwable.setStackTrace(java.lang.StackTraceElement[])=[Ljava.lang.Class;@7730ecd4, public boolean java.lang.Object.equals(java.lang.Object)=[Ljava.lang.Class;@2d0c8f6e, public java.lang.StackTraceElement[] java.lang.Throwable.getStackTrace()=[Ljava.lang.Class;@139c95dd, public java.lang.Throwable java.lang.Throwable.getCause()=[Ljava.lang.Class;@d32ea3a, public java.lang.String java.lang.Throwable.getMessage()=[Ljava.lang.Class;@9af8c9b, public final native java.lang.Class java.lang.Object.getClass()=[Ljava.lang.Class;@64381914, public java.lang.String java.lang.Throwable.getLocalizedMessage()=[Ljava.lang.Class;@1ef6a373, public synchronized native java.lang.Throwable java.lang.Throwable.fillInStackTrace()=[Ljava.lang.Class;@5264e2e6, public synchronized java.lang.Throwable java.lang.Throwable.initCause(java.lang.Throwable)=[Ljava.lang.Class;@5d6c944c, public native int java.lang.Object.hashCode()=[Ljava.lang.Class;@37c397f, public java.lang.String java.lang.Throwable.toString()=[Ljava.lang.Class;@50a2c2a2}, hashCode=public native int java.lang.Object.hashCode(), class=java.beans.PropertyDescriptor@f13f3fae, fillInStackTrace=public synchronized native java.lang.Throwable java.lang.Throwable.fillInStackTrace(), stackTrace=java.beans.PropertyDescriptor@c821fe0c, message=java.beans.PropertyDescriptor@8a556d5f, getStackTrace=public java.lang.StackTraceElement[] java.lang.Throwable.getStackTrace(), setStackTrace=public void java.lang.Throwable.setStackTrace(java.lang.StackTraceElement[]), java.lang.Object@76ecb72a=freemarker.ext.beans.MethodMap@6d984309, toString=public java.lang.String java.lang.Throwable.toString(), initCause=public synchronized java.lang.Throwable java.lang.Throwable.initCause(java.lang.Throwable), printStackTrace=freemarker.ext.beans.MethodMap@27593c15, getLocalizedMessage=public java.lang.String java.lang.Throwable.getLocalizedMessage()}
+2013-01-07 17:08:04 DEBUG [org.mini.service.impl.SessionServiceImpl]: service注入成功了
+2013-01-07 17:08:04 DEBUG [org.mini.service.impl.SessionServiceImpl]: dao注入成功了
+2013-01-07 17:08:04 DEBUG [freemarker.cache]: "org/apache/struts2/dispatcher/error.ftl"["zh_CN",UTF-8,parsed]  using cached since jar:file:/E:/work/maven/local/repo/org/apache/struts/struts2-core/2.3.7/struts2-core-2.3.7.jar!/org/apache/struts2/dispatcher/error.ftl didn't change.
+2013-01-07 17:08:04 DEBUG [freemarker.beans]: Key "location" was not found on instance of org.apache.struts2.json.JSONException. Introspection information for the class is: {getClass=public final native java.lang.Class java.lang.Object.getClass(), localizedMessage=java.beans.PropertyDescriptor@233fcc66, cause=java.beans.PropertyDescriptor@3324d037, getMessage=public java.lang.String java.lang.Throwable.getMessage(), getCause=public java.lang.Throwable java.lang.Throwable.getCause(), equals=public boolean java.lang.Object.equals(java.lang.Object), java.lang.Object@2c90c96c={public void java.lang.Throwable.setStackTrace(java.lang.StackTraceElement[])=[Ljava.lang.Class;@d6a73ea, public boolean java.lang.Object.equals(java.lang.Object)=[Ljava.lang.Class;@47e00e87, public java.lang.StackTraceElement[] java.lang.Throwable.getStackTrace()=[Ljava.lang.Class;@46d9e5ee, public java.lang.Throwable java.lang.Throwable.getCause()=[Ljava.lang.Class;@b869099, public java.lang.String java.lang.Throwable.getMessage()=[Ljava.lang.Class;@2f7f32b8, public final native java.lang.Class java.lang.Object.getClass()=[Ljava.lang.Class;@47dae664, public java.lang.String java.lang.Throwable.getLocalizedMessage()=[Ljava.lang.Class;@744bd416, public synchronized native java.lang.Throwable java.lang.Throwable.fillInStackTrace()=[Ljava.lang.Class;@1e512c00, public synchronized java.lang.Throwable java.lang.Throwable.initCause(java.lang.Throwable)=[Ljava.lang.Class;@631fc38c, public native int java.lang.Object.hashCode()=[Ljava.lang.Class;@3a5f4f2b, public java.lang.String java.lang.Throwable.toString()=[Ljava.lang.Class;@4746adfd}, hashCode=public native int java.lang.Object.hashCode(), class=java.beans.PropertyDescriptor@f13f3fae, fillInStackTrace=public synchronized native java.lang.Throwable java.lang.Throwable.fillInStackTrace(), stackTrace=java.beans.PropertyDescriptor@c821fe0c, message=java.beans.PropertyDescriptor@8a556d5f, getStackTrace=public java.lang.StackTraceElement[] java.lang.Throwable.getStackTrace(), setStackTrace=public void java.lang.Throwable.setStackTrace(java.lang.StackTraceElement[]), java.lang.Object@76ecb72a=freemarker.ext.beans.MethodMap@7148e199, toString=public java.lang.String java.lang.Throwable.toString(), initCause=public synchronized java.lang.Throwable java.lang.Throwable.initCause(java.lang.Throwable), printStackTrace=freemarker.ext.beans.MethodMap@67d33de9, getLocalizedMessage=public java.lang.String java.lang.Throwable.getLocalizedMessage()}
+2013-01-07 17:08:04 DEBUG [freemarker.beans]: Key "location" was not found on instance of org.apache.struts2.json.JSONException. Introspection information for the class is: {getClass=public final native java.lang.Class java.lang.Object.getClass(), localizedMessage=java.beans.PropertyDescriptor@233fcc66, cause=java.beans.PropertyDescriptor@3324d037, getMessage=public java.lang.String java.lang.Throwable.getMessage(), getCause=public java.lang.Throwable java.lang.Throwable.getCause(), equals=public boolean java.lang.Object.equals(java.lang.Object), java.lang.Object@2c90c96c={public void java.lang.Throwable.setStackTrace(java.lang.StackTraceElement[])=[Ljava.lang.Class;@d6a73ea, public boolean java.lang.Object.equals(java.lang.Object)=[Ljava.lang.Class;@47e00e87, public java.lang.StackTraceElement[] java.lang.Throwable.getStackTrace()=[Ljava.lang.Class;@46d9e5ee, public java.lang.Throwable java.lang.Throwable.getCause()=[Ljava.lang.Class;@b869099, public java.lang.String java.lang.Throwable.getMessage()=[Ljava.lang.Class;@2f7f32b8, public final native java.lang.Class java.lang.Object.getClass()=[Ljava.lang.Class;@47dae664, public java.lang.String java.lang.Throwable.getLocalizedMessage()=[Ljava.lang.Class;@744bd416, public synchronized native java.lang.Throwable java.lang.Throwable.fillInStackTrace()=[Ljava.lang.Class;@1e512c00, public synchronized java.lang.Throwable java.lang.Throwable.initCause(java.lang.Throwable)=[Ljava.lang.Class;@631fc38c, public native int java.lang.Object.hashCode()=[Ljava.lang.Class;@3a5f4f2b, public java.lang.String java.lang.Throwable.toString()=[Ljava.lang.Class;@4746adfd}, hashCode=public native int java.lang.Object.hashCode(), class=java.beans.PropertyDescriptor@f13f3fae, fillInStackTrace=public synchronized native java.lang.Throwable java.lang.Throwable.fillInStackTrace(), stackTrace=java.beans.PropertyDescriptor@c821fe0c, message=java.beans.PropertyDescriptor@8a556d5f, getStackTrace=public java.lang.StackTraceElement[] java.lang.Throwable.getStackTrace(), setStackTrace=public void java.lang.Throwable.setStackTrace(java.lang.StackTraceElement[]), java.lang.Object@76ecb72a=freemarker.ext.beans.MethodMap@7148e199, toString=public java.lang.String java.lang.Throwable.toString(), initCause=public synchronized java.lang.Throwable java.lang.Throwable.initCause(java.lang.Throwable), printStackTrace=freemarker.ext.beans.MethodMap@67d33de9, getLocalizedMessage=public java.lang.String java.lang.Throwable.getLocalizedMessage()}
+2013-01-07 17:08:05 DEBUG [freemarker.beans]: Key "location" was not found on instance of java.lang.reflect.InvocationTargetException. Introspection information for the class is: {getClass=public final native java.lang.Class java.lang.Object.getClass(), localizedMessage=java.beans.PropertyDescriptor@233fcc66, cause=java.beans.PropertyDescriptor@9ae5296, getCause=public java.lang.Throwable java.lang.reflect.InvocationTargetException.getCause(), getMessage=public java.lang.String java.lang.Throwable.getMessage(), equals=public boolean java.lang.Object.equals(java.lang.Object), java.lang.Object@2c90c96c={public void java.lang.Throwable.setStackTrace(java.lang.StackTraceElement[])=[Ljava.lang.Class;@6848685b, public boolean java.lang.Object.equals(java.lang.Object)=[Ljava.lang.Class;@69bb63d9, public java.lang.Throwable java.lang.reflect.InvocationTargetException.getCause()=[Ljava.lang.Class;@d9871ca, public java.lang.StackTraceElement[] java.lang.Throwable.getStackTrace()=[Ljava.lang.Class;@13568bbf, public java.lang.String java.lang.Throwable.getMessage()=[Ljava.lang.Class;@16f0b284, public final native java.lang.Class java.lang.Object.getClass()=[Ljava.lang.Class;@145803e0, public java.lang.String java.lang.Throwable.getLocalizedMessage()=[Ljava.lang.Class;@1e66718f, public synchronized native java.lang.Throwable java.lang.Throwable.fillInStackTrace()=[Ljava.lang.Class;@57a972e0, public synchronized java.lang.Throwable java.lang.Throwable.initCause(java.lang.Throwable)=[Ljava.lang.Class;@35b4fd16, public native int java.lang.Object.hashCode()=[Ljava.lang.Class;@7d53cae5, public java.lang.Throwable java.lang.reflect.InvocationTargetException.getTargetException()=[Ljava.lang.Class;@82dc0ab, public java.lang.String java.lang.Throwable.toString()=[Ljava.lang.Class;@73c41ebe}, hashCode=public native int java.lang.Object.hashCode(), class=java.beans.PropertyDescriptor@f13f3fae, fillInStackTrace=public synchronized native java.lang.Throwable java.lang.Throwable.fillInStackTrace(), targetException=java.beans.PropertyDescriptor@d440241f, stackTrace=java.beans.PropertyDescriptor@c821fe0c, message=java.beans.PropertyDescriptor@8a556d5f, getStackTrace=public java.lang.StackTraceElement[] java.lang.Throwable.getStackTrace(), setStackTrace=public void java.lang.Throwable.setStackTrace(java.lang.StackTraceElement[]), getTargetException=public java.lang.Throwable java.lang.reflect.InvocationTargetException.getTargetException(), java.lang.Object@76ecb72a=freemarker.ext.beans.MethodMap@50be8752, toString=public java.lang.String java.lang.Throwable.toString(), initCause=public synchronized java.lang.Throwable java.lang.Throwable.initCause(java.lang.Throwable), printStackTrace=freemarker.ext.beans.MethodMap@ca641e8, getLocalizedMessage=public java.lang.String java.lang.Throwable.getLocalizedMessage()}
+2013-01-07 17:08:05 DEBUG [freemarker.beans]: Key "location" was not found on instance of java.lang.IllegalStateException. Introspection information for the class is: {getClass=public final native java.lang.Class java.lang.Object.getClass(), localizedMessage=java.beans.PropertyDescriptor@233fcc66, cause=java.beans.PropertyDescriptor@3324d037, getMessage=public java.lang.String java.lang.Throwable.getMessage(), getCause=public java.lang.Throwable java.lang.Throwable.getCause(), equals=public boolean java.lang.Object.equals(java.lang.Object), java.lang.Object@2c90c96c={public void java.lang.Throwable.setStackTrace(java.lang.StackTraceElement[])=[Ljava.lang.Class;@7730ecd4, public boolean java.lang.Object.equals(java.lang.Object)=[Ljava.lang.Class;@2d0c8f6e, public java.lang.StackTraceElement[] java.lang.Throwable.getStackTrace()=[Ljava.lang.Class;@139c95dd, public java.lang.Throwable java.lang.Throwable.getCause()=[Ljava.lang.Class;@d32ea3a, public java.lang.String java.lang.Throwable.getMessage()=[Ljava.lang.Class;@9af8c9b, public final native java.lang.Class java.lang.Object.getClass()=[Ljava.lang.Class;@64381914, public java.lang.String java.lang.Throwable.getLocalizedMessage()=[Ljava.lang.Class;@1ef6a373, public synchronized native java.lang.Throwable java.lang.Throwable.fillInStackTrace()=[Ljava.lang.Class;@5264e2e6, public synchronized java.lang.Throwable java.lang.Throwable.initCause(java.lang.Throwable)=[Ljava.lang.Class;@5d6c944c, public native int java.lang.Object.hashCode()=[Ljava.lang.Class;@37c397f, public java.lang.String java.lang.Throwable.toString()=[Ljava.lang.Class;@50a2c2a2}, hashCode=public native int java.lang.Object.hashCode(), class=java.beans.PropertyDescriptor@f13f3fae, fillInStackTrace=public synchronized native java.lang.Throwable java.lang.Throwable.fillInStackTrace(), stackTrace=java.beans.PropertyDescriptor@c821fe0c, message=java.beans.PropertyDescriptor@8a556d5f, getStackTrace=public java.lang.StackTraceElement[] java.lang.Throwable.getStackTrace(), setStackTrace=public void java.lang.Throwable.setStackTrace(java.lang.StackTraceElement[]), java.lang.Object@76ecb72a=freemarker.ext.beans.MethodMap@6d984309, toString=public java.lang.String java.lang.Throwable.toString(), initCause=public synchronized java.lang.Throwable java.lang.Throwable.initCause(java.lang.Throwable), printStackTrace=freemarker.ext.beans.MethodMap@27593c15, getLocalizedMessage=public java.lang.String java.lang.Throwable.getLocalizedMessage()}
+2013-01-07 17:09:33 DEBUG [org.jboss.logging]: Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2013-01-07 17:09:34 DEBUG [net.sf.ehcache.config.ConfigurationFactory]: Configuring ehcache from URL: jar:file:/E:/work/maven/local/repo/net/sf/ehcache/ehcache-core/2.6.2/ehcache-core-2.6.2.jar!/ehcache-failsafe.xml
+2013-01-07 17:09:34 DEBUG [net.sf.ehcache.config.ConfigurationFactory]: Configuring ehcache from InputStream
+2013-01-07 17:09:34 DEBUG [net.sf.ehcache.config.BeanHandler]: Ignoring ehcache attribute xmlns:xsi
+2013-01-07 17:09:34 DEBUG [net.sf.ehcache.config.BeanHandler]: Ignoring ehcache attribute xsi:noNamespaceSchemaLocation
+2013-01-07 17:09:34 DEBUG [net.sf.ehcache.config.DiskStoreConfiguration]: Disk Store Path: C:\Users\ADMINI~1\AppData\Local\Temp\
+2013-01-07 17:09:34 DEBUG [net.sf.ehcache.util.PropertyUtil]: propertiesString is null.
+2013-01-07 17:09:34 DEBUG [net.sf.ehcache.config.ConfigurationHelper]: No CacheManagerEventListenerFactory class specified. Skipping...
+2013-01-07 17:09:34 DEBUG [net.sf.ehcache.Cache]: No BootstrapCacheLoaderFactory class specified. Skipping...
+2013-01-07 17:09:34 DEBUG [net.sf.ehcache.Cache]: CacheWriter factory not configured. Skipping...
+2013-01-07 17:09:34 DEBUG [net.sf.ehcache.config.ConfigurationHelper]: No CacheExceptionHandlerFactory class specified. Skipping...
+2013-01-07 17:09:34 DEBUG [net.sf.ehcache.store.MemoryStore]: Initialized net.sf.ehcache.store.MemoryStore for org.hibernate.cache.spi.UpdateTimestampsCache
+2013-01-07 17:09:34 DEBUG [net.sf.ehcache.DiskStorePathManager]: Using diskstore path C:\Users\ADMINI~1\AppData\Local\Temp
+2013-01-07 17:09:34 DEBUG [net.sf.ehcache.DiskStorePathManager]: Holding exclusive lock on C:\Users\ADMINI~1\AppData\Local\Temp\.ehcache-diskstore.lock
+2013-01-07 17:09:34 DEBUG [net.sf.ehcache.store.disk.DiskStorageFactory]: Failed to delete file org%002ehibernate%002ecache%002espi%002e%0055pdate%0054imestamps%0043ache.index
+2013-01-07 17:09:34 DEBUG [net.sf.ehcache.store.disk.DiskStorageFactory]: Matching data file missing (or empty) for index file. Deleting index file C:\Users\ADMINI~1\AppData\Local\Temp\org%002ehibernate%002ecache%002espi%002e%0055pdate%0054imestamps%0043ache.index
+2013-01-07 17:09:34 DEBUG [net.sf.ehcache.store.disk.DiskStorageFactory]: Failed to delete file org%002ehibernate%002ecache%002espi%002e%0055pdate%0054imestamps%0043ache.index
+2013-01-07 17:09:34 DEBUG [net.sf.ehcache.Cache]: Initialised cache: org.hibernate.cache.spi.UpdateTimestampsCache
+2013-01-07 17:09:34 DEBUG [net.sf.ehcache.config.ConfigurationHelper]: CacheDecoratorFactory not configured for defaultCache. Skipping for 'org.hibernate.cache.spi.UpdateTimestampsCache'.
+2013-01-07 17:09:34 DEBUG [net.sf.ehcache.store.MemoryStore]: Initialized net.sf.ehcache.store.MemoryStore for org.hibernate.cache.internal.StandardQueryCache
+2013-01-07 17:09:34 DEBUG [net.sf.ehcache.store.disk.DiskStorageFactory]: Failed to delete file org%002ehibernate%002ecache%002einternal%002e%0053tandard%0051uery%0043ache.index
+2013-01-07 17:09:34 DEBUG [net.sf.ehcache.store.disk.DiskStorageFactory]: Matching data file missing (or empty) for index file. Deleting index file C:\Users\ADMINI~1\AppData\Local\Temp\org%002ehibernate%002ecache%002einternal%002e%0053tandard%0051uery%0043ache.index
+2013-01-07 17:09:34 DEBUG [net.sf.ehcache.store.disk.DiskStorageFactory]: Failed to delete file org%002ehibernate%002ecache%002einternal%002e%0053tandard%0051uery%0043ache.index
+2013-01-07 17:09:34 DEBUG [net.sf.ehcache.Cache]: Initialised cache: org.hibernate.cache.internal.StandardQueryCache
+2013-01-07 17:09:34 DEBUG [net.sf.ehcache.config.ConfigurationHelper]: CacheDecoratorFactory not configured for defaultCache. Skipping for 'org.hibernate.cache.internal.StandardQueryCache'.
+2013-01-07 17:12:48 DEBUG [org.mini.service.impl.SessionServiceImpl]: service注入成功了
+2013-01-07 17:12:48 DEBUG [org.mini.service.impl.SessionServiceImpl]: dao注入成功了
+2013-01-07 17:12:48 DEBUG [org.mini.service.impl.SessionServiceImpl]: service注入成功了
+2013-01-07 17:12:48 DEBUG [org.mini.service.impl.SessionServiceImpl]: dao注入成功了
+2013-01-07 17:12:48 DEBUG [org.mini.service.impl.SessionServiceImpl]: service注入成功了
+2013-01-07 17:12:48 DEBUG [org.mini.service.impl.SessionServiceImpl]: dao注入成功了
+2013-01-07 17:12:53 DEBUG [org.mini.service.impl.SessionServiceImpl]: service注入成功了
+2013-01-07 17:12:53 DEBUG [org.mini.service.impl.SessionServiceImpl]: dao注入成功了
+2013-01-07 17:12:59 DEBUG [org.mini.service.impl.SessionServiceImpl]: service注入成功了
+2013-01-07 17:12:59 DEBUG [org.mini.service.impl.SessionServiceImpl]: dao注入成功了

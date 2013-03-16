@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.mini.framework.modules.model">
+	
+	<resultMap type="Demo" id="demoResult">
+		<result property="id" column="id" jdbcType="INTEGER" javaType="java.lang.Integer" />
+		<result property="name" column="name1" />
+	</resultMap>
+
+	<select id="selectAllDemo" resultMap="demoResult">
+		select * from test_t
+ 	</select>
+
+	<select id="findDemoById" parameterType="int" resultMap="demoResult">
+		select * from test_t where id=#{id}
+ 	</select>
+
+	<insert id="insertDemo" parameterType="demo">
+	 <![CDATA[
+		insert into test_t(name1) values(#{name})
+		]]>
+ 	</insert>
+
+	<update id="updateDemo" parameterType="demo">
+		update test_t set name1=#{name} where id=#{id}
+ 	</update>
+ 	
+	<delete id="deleteDemo" parameterType="int">
+		delete from user where id=#{id}
+	</delete>
+
+</mapper>
