@@ -41,7 +41,7 @@
 		<!-- 要扫描的包 -->
 		<property name="packagesToScan">
 			<list>
-				<value>org.mini.model</value>
+				<value>org.mini.model.</value>
 			</list>
 		</property>
 		<!-- 映射文件配置 -->

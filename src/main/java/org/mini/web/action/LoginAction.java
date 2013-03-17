@@ -3,7 +3,6 @@ package org.mini.web.action;
 import javax.annotation.Resource;
 
 import org.mini.framework.action.BaseAction;
-import org.mini.service.EmployeeService;
 
 public class LoginAction extends BaseAction {
 
@@ -15,10 +14,6 @@ public class LoginAction extends BaseAction {
 	//这些是跟客户直接打交道的数据。建立好后再建立一下getter和setter就好了，前面介绍过，就不一一介绍了。
 	private String username;
 	private String password;
-	
-	//这要使用控制层里的方法，所以注入这个接口。
-	@Resource
-	private EmployeeService employeeService;
 	
 	public String getUsername() {
 		return username;
@@ -50,13 +45,7 @@ public class LoginAction extends BaseAction {
 	
 	//自定义方法，以供调用。
 	public String login() throws Exception {
-		if(employeeService.checkLogin(username, password)) {
-			setIsSuccess(true);
-			setMessage("登录成功");
-		} else {
-			setIsSuccess(false);
-			setMessage("登录失败");
-		}
+	
 		
 		return INPUT;
 	}

@@ -53,6 +53,10 @@
             <result name="success">/pages/login/login.jsp</result>
         </action>
         
+        <action name="userList" class="org.mini.web.action.UserAction">  
+            <result name="success">/pages/user/index.jsp</result>
+        </action>
+        
         <action name="doLogin" class="org.mini.web.action.LoginAction" method="login">
             <result name="input" type="json">
                 <param name="ignoreHierarchy">false</param>
