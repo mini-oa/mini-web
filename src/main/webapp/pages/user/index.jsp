@@ -16,7 +16,7 @@
 </thead>
 <tbody>
 <s:iterator value="list">
-<tr><td>${userName}</td><td>${password}</td><td>${createTime}</td><td>${validFlag}</td></tr>		
+<tr><td>${userName}</td><td>${password}</td><td>${createTime}</td><td>${deleted}</td></tr>		
 </s:iterator>
 </tbody>
 </table>
