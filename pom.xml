@@ -21,29 +21,14 @@
 			<artifactId>junit</artifactId>
 		</dependency>
 		<dependency>
-			<groupId>org.mini</groupId>
+			<groupId>${project.groupId}</groupId>
 			<artifactId>mini-common</artifactId>
-			<version>1.0</version>
+			<version>${project.version}</version>
 		</dependency>
 		<dependency>
-			<groupId>org.mini</groupId>
-			<artifactId>mini-model</artifactId>
-			<version>1.0</version>
-		</dependency>
-		<dependency>
-			<groupId>org.mini</groupId>
-			<artifactId>mini-framework</artifactId>
-			<version>1.0</version>
-		</dependency>
-		<dependency>
-			<groupId>org.mini</groupId>
-			<artifactId>mini-persist</artifactId>
-			<version>1.0</version>
-		</dependency>
-		<dependency>
-			<groupId>org.mini</groupId>
+			<groupId>${project.groupId}</groupId>
 			<artifactId>mini-service</artifactId>
-			<version>1.0</version>
+			<version>${project.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>org.apache.struts</groupId>
@@ -106,29 +91,12 @@
 			<includes> <include>**/*.xml</include> <include>**/*.properties</include> 
 			</includes> </resource> </resources> -->
 		<plugins>
-			<!-- <plugin>
-				<groupId>org.eclipse.m2e</groupId>
-				<artifactId>lifecycle-mapping</artifactId>
-				<version>1.0.0</version>
-				<configuration>
-					<lifecycleMappingMetadata>
-						<pluginExecutions>
-							<pluginExecution>
-								<pluginExecutionFilter>
-									<groupId>org.apache.maven.plugins</groupId>
-									<artifactId>maven-dependency-plugin</artifactId>
-									<goals>
-										<goal>copy-dependencies</goal>
-									</goals>
-								</pluginExecutionFilter>
-								<action>
-									<ignore />
-								</action>
-							</pluginExecution>
-						</pluginExecutions>
-					</lifecycleMappingMetadata>
-				</configuration>
-			</plugin> -->
+			<!-- <plugin> <groupId>org.eclipse.m2e</groupId> <artifactId>lifecycle-mapping</artifactId> 
+				<version>1.0.0</version> <configuration> <lifecycleMappingMetadata> <pluginExecutions> 
+				<pluginExecution> <pluginExecutionFilter> <groupId>org.apache.maven.plugins</groupId> 
+				<artifactId>maven-dependency-plugin</artifactId> <goals> <goal>copy-dependencies</goal> 
+				</goals> </pluginExecutionFilter> <action> <ignore /> </action> </pluginExecution> 
+				</pluginExecutions> </lifecycleMappingMetadata> </configuration> </plugin> -->
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>

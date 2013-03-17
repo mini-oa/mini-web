@@ -32,6 +32,13 @@ public class UserAction extends BaseAction {
 	}
 
 	/**
+	 * @param list the list to set
+	 */
+	public void setList(List<User> list) {
+		this.list = list;
+	}
+
+	/**
 	 * 
 	 */
 	private static final long serialVersionUID = 1L;
