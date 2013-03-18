@@ -34,9 +34,9 @@ public class UserAction extends BaseAction {
 	/**
 	 * @param list the list to set
 	 */
-	public void setList(List<User> list) {
+	/*public void setList(List<User> list) {
 		this.list = list;
-	}
+	}*/
 
 	/**
 	 * 
