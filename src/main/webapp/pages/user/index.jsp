@@ -8,15 +8,15 @@
 <title>用户列表</title>
 </head>
 <body>
-<table>
+<table border="1" style="border-width: 1px; border-collapse: collapse; border-spacing: 1px; border-color: black;">
 <thead>
 <tr>
-<th>用户名</th><th>密码</th><th>添加日期</th><th>是否有效</th>
+<th>用户名</th><th>密码</th><th>添加日期</th><th>是否有效</th><th>是否删除</th><th>操作</th>
 </tr>
 </thead>
 <tbody>
-<s:iterator value="list">
-<tr><td>${userName}</td><td>${password}</td><td>${createTime}</td><td>${deleted}</td></tr>		
+<s:iterator value="list" id="user">
+<tr><td><s:property value="#user.userName"/></td><td>${password}</td><td>${createTime}</td><td><s:if test='%{#user.valid}'>是</s:if><s:else>否</s:else></td><td><s:if test='%{#user.deleted}'>是</s:if><s:else>否</s:else></td><td><a href="javascript:void(0);">编辑</a> | <a href="javascript:void(0);">删除</a></td></tr>		
 </s:iterator>
 </tbody>
 </table>
