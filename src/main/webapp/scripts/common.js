@@ -3,7 +3,7 @@
 }
 
 function showNorepeat(tipsText) {
-    $.showNorepeat({ image_src: "/Content/Images/loading.gif", tips: tipsText });
+    $.showNorepeat({ image_src: "/images/loading.gif", tips: tipsText });
 }
 
 function hideNorepeat() {

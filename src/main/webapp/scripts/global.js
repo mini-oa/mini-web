@@ -51,7 +51,7 @@ function showBox(msg, msgType, onUnblockFunc) {
             html += '<table border="0" cellpadding="0" cellspacing="0" width="100%">';
             html += '   <tr>';
             html += '       <td style="vertical-align:top;text-align:left;" width="55">';
-            html += '           <img src="/Content/Images/messagebox/prompt1.gif" border="0" />';
+            html += '           <img src="/images/messagebox/prompt1.gif" border="0" />';
             html += '       </td>';
             html += '       <td style="vertical-align:center;text-align:left;color:#505050">';
             html += '           ' + msg;
@@ -64,7 +64,7 @@ function showBox(msg, msgType, onUnblockFunc) {
             html += '<table border="0" cellpadding="0" cellspacing="0" width="100%">';
             html += '   <tr>';
             html += '       <td style="vertical-align:top;text-align:left;" width="55">';
-            html += '           <img src="/Content/Images/messagebox/error.gif" border="0" />';
+            html += '           <img src="/images/messagebox/error.gif" border="0" />';
             html += '       </td>';
             html += '       <td style="vertical-align:center;text-align:left;color:#505050">';
             html += '           ' + msg;
@@ -77,7 +77,7 @@ function showBox(msg, msgType, onUnblockFunc) {
             html += '<table border="0" cellpadding="0" cellspacing="0" width="100%">';
             html += '   <tr>';
             html += '       <td style="vertical-align:top;text-align:left;" width="55">';
-            html += '           <img src="/Content/Images/messagebox/prompt_10.gif" border="0" />';
+            html += '           <img src="/images/messagebox/prompt_10.gif" border="0" />';
             html += '       </td>';
             html += '       <td style="vertical-align:center;text-align:left;color:#505050">';
             html += '           ' + msg;
@@ -90,7 +90,7 @@ function showBox(msg, msgType, onUnblockFunc) {
             html += '<table border="0" cellpadding="0" cellspacing="0" width="100%">';
             html += '   <tr>';
             html += '       <td style="vertical-align:top;text-align:left;" width="55">';
-            html += '           <img src="/Content/Images/messagebox/loading.gif" border="0" />';
+            html += '           <img src="/images/messagebox/loading.gif" border="0" />';
             html += '       </td>';
             html += '       <td style="vertical-align:center;text-align:left;color:#505050">';
             html += '           ' + msg;
