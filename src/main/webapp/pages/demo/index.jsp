@@ -8,6 +8,7 @@
 <title>测试页面</title>
 </head>
 <body>
+	错误显示页面
 	<s:iterator value="demoList">
 			${name}<br />
 	</s:iterator>

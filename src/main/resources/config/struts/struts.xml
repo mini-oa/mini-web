@@ -53,11 +53,16 @@
             <result name="success">/pages/login/login.jsp</result>
         </action>
         
-        <action name="userList" class="org.mini.web.action.UserAction">  
+        <action name="user_list" class="org.mini.web.action.UserAction">  
             <result name="success">/pages/user/index.jsp</result>
         </action>
         
-        <action name="doLogin" class="org.mini.web.action.LoginAction" method="login">
+        <action name="user_*" class="org.mini.web.action.UserAction" method="{1}">  
+            <result name="success">/pages/user/{1}.jsp</result>
+            <interceptor-ref name="exception"></interceptor-ref>
+        </action>
+        
+        <action name="do_login" class="org.mini.web.action.LoginAction" method="login">
             <result name="input" type="json">
                 <param name="ignoreHierarchy">false</param>
                 <param name="includeProperties">${actionErrors},${fieldErrors}</param>
