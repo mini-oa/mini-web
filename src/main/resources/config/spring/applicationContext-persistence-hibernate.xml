@@ -16,6 +16,7 @@
 	<!-- hibernate 属性配置 -->
 	<context:property-placeholder
 		location="classpath:config/hibernate/hibernate.properties" />
+		
 	<!-- 与sql语句匹配的参数配置 -->
 	<bean id="columnParametersCache" class="org.mini.framework.cache.ColumnParametersCacheImpl">
 		<property name="configFileName">

@@ -13,6 +13,13 @@
             http://www.springframework.org/schema/aop/spring-aop.xsd
             http://www.springframework.org/schema/tx
             http://www.springframework.org/schema/tx/spring-tx.xsd">
+            
+    <!-- 与sql语句匹配的参数配置 -->
+	<bean id="columnParametersCache" class="org.mini.framework.cache.ColumnParametersCacheImpl">
+		<property name="configFileName">
+			<value>/config/mappers/mapper.xml</value>
+		</property>
+	</bean>
 
     <!-- C3P0 数据源 -->
     <bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource">
@@ -35,13 +42,11 @@
 			</list>
 		</property>
 		<!-- 映射文件配置 -->
-		<!--
 		<property name="mappingResources" >
 		    <list>
-		        <value>config/entites/Demo.hbm.xml</value>
+		        <value>config/entites/User.hbm.xml</value>
 		    </list>
 		</property>
-		-->
 		<!--
 		<property name="mappingDirectoryLocations">
 		    <list>

@@ -10,6 +10,10 @@
 <title><s:property value="%{getText('user.list.title')}"/></title>
 </head>
 <body>
+	<form action="user_list" method="post" enctype="application/x-www-form-urlencoded">
+		用户名：<input type="text" name="user.userName" value="${user.userName}" />
+		工号：<input type="text" name="user。empNo" value="${user.empNo}" />
+	</form>
 	<table border="1"
 		style="border-width: 1px; border-collapse: collapse; border-spacing: 1px; border-color: black;">
 		<thead>
@@ -57,7 +61,7 @@
 	function del(id) {
 		top.showBox();
 		$.ajax({
-			url : getCmdUrl("customer_bll:delete"),
+			url : getCmdUrl("user_delete"),
 			data : {
 				"id" : id
 			},

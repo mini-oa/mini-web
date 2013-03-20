@@ -23,6 +23,7 @@ public class UserAction extends BaseAction {
 	private UserService userService;
 	
 	private List<User> list;
+	private User user;
 
 	/**
 	 * @return the list
@@ -37,6 +38,14 @@ public class UserAction extends BaseAction {
 	/*public void setList(List<User> list) {
 		this.list = list;
 	}*/
+	
+	public void setUser(User user) {
+		this.user = user;
+	}
+	
+	public User getUser() {
+		return user;
+	}
 
 	/**
 	 * 
@@ -50,7 +59,7 @@ public class UserAction extends BaseAction {
 	}
 	
 	public String list() throws Exception {
-		list = userService.search(null);
+		list = userService.search(user);
 		
 		return Action.SUCCESS;
 	}
