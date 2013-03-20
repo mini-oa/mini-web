@@ -16,7 +16,7 @@
     <!-- 国际化资源文件 -->
     <constant name="struts.custom.i18n.resources" value="config/language/Language" />
     <!-- 默认后缀名 -->
-    <constant name="struts.action.extension" value=",do,action,jhtml," />
+    <constant name="struts.action.extension" value=",html,do,action" />
 	<!-- Struts Annotation，设置为注释注入 -->
     <constant name="actionPackages" value="org.mini.web.action" />
     
