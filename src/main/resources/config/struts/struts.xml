@@ -53,7 +53,7 @@
             <result name="success">/pages/login/login.jsp</result>
         </action>
         
-        <action name="user_list" class="org.mini.web.action.UserAction">  
+        <action name="user_list2" class="org.mini.web.action.UserAction">  
             <result name="success">/pages/user/index.jsp</result>
         </action>
         

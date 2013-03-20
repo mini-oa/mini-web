@@ -6,7 +6,8 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <%@include file="/pages/includes/header.jsp"%>
-<title>用户列表</title>
+<%@include file="/pages/includes/jstl.jsp"%>
+<title></title>
 </head>
 <body>
 	<table border="1"

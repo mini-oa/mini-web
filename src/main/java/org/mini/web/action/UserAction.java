@@ -48,5 +48,14 @@ public class UserAction extends BaseAction {
 		
 		return Action.SUCCESS;
 	}
+	
+	public String list() throws Exception {
+		list = userService.search(null);
+		
+		return Action.SUCCESS;
+	}
 
+	public String view() throws Exception {
+		return Action.SUCCESS;
+	}
 }
