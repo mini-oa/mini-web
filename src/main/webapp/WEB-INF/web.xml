@@ -133,6 +133,7 @@
 		</servlet> <servlet-mapping> <servlet-name>CXFServlet</servlet-name> <url-pattern>/services/*</url-pattern> 
 		</servlet-mapping> -->
 
+	<!-- 禁止直接浏览的目录设置，WEB-INF就是这样的目录 -->
 	<security-constraint>
 		<web-resource-collection>
 			<web-resource-name>PlanEap</web-resource-name>
@@ -141,7 +142,7 @@
 		<auth-constraint />
 	</security-constraint>
 
-
+	<!-- 默认首页的设置  -->
 	<welcome-file-list>
 		<welcome-file>index.html</welcome-file>
 		<welcome-file>index.htm</welcome-file>
