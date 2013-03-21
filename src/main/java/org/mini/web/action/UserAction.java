@@ -24,6 +24,7 @@ public class UserAction extends BaseAction {
 	
 	private List<User> list;
 	private User user;
+	private long id;
 
 	/**
 	 * @return the list
@@ -46,6 +47,10 @@ public class UserAction extends BaseAction {
 	public User getUser() {
 		return user;
 	}
+	
+	public void setId(long id) {
+		this.id = id;
+	}
 
 	/**
 	 * 
@@ -65,6 +70,10 @@ public class UserAction extends BaseAction {
 	}
 
 	public String view() throws Exception {
+		if(id != 0) {
+			user = userService.get(id);
+		}
+		
 		return Action.SUCCESS;
 	}
 }

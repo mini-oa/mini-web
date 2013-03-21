@@ -46,18 +46,18 @@
 			</list>
 		</property>
 		<!-- 映射文件配置 -->
-		<!-- 
+		
 		<property name="mappingResources">
 			<list>
-				<value>config/entities/Demo.hbm.xml</value>
+				<value>config/entities/User.hbm.xml</value>
 			</list>
 		</property>
-		 -->
-		<property name="mappingLocations">
+		
+		<!-- <property name="mappingLocations">
 			<list>
 				<value>config/entities/*.hbm.xml</value>
 			</list>
-		</property>
+		</property> -->
 		<!-- <property name="mappingDirectoryLocations"> <list> <value>classpath*:/config/entites/</value> 
 			</list> </property> -->
 		<property name="hibernateProperties">

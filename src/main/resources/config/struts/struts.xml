@@ -59,7 +59,8 @@
         
         <action name="user_*" class="org.mini.web.action.UserAction" method="{1}">  
             <result name="success">/pages/user/{1}.jsp</result>
-            <interceptor-ref name="exception"></interceptor-ref>
+            <interceptor-ref name="defaultStack" /> 
+            <interceptor-ref name="exception" />
         </action>
         
         <action name="do_login" class="org.mini.web.action.LoginAction" method="login">

@@ -12,7 +12,8 @@
 <body>
 	<form action="user_list" method="post" enctype="application/x-www-form-urlencoded">
 		用户名：<input type="text" name="user.userName" value="${user.userName}" />
-		工号：<input type="text" name="user。empNo" value="${user.empNo}" />
+		工号：<input type="text" name="user.empNo" value="${user.empNo}" />
+		<input type="submit" value="搜索" />
 	</form>
 	<table border="1"
 		style="border-width: 1px; border-collapse: collapse; border-spacing: 1px; border-color: black;">
@@ -50,7 +51,7 @@
 <script type="text/javascript">
 	function showEdit(id) {
 		var title = "新增客户";
-		var url = "user_edit";
+		var url = "user_view";
 		if (id) {
 			title = "编辑客户";
 			url = url + "?id=" + id;
@@ -61,16 +62,19 @@
 	function del(id) {
 		top.showBox();
 		$.ajax({
-			url : getCmdUrl("user_delete"),
+			url : "user_delete",
 			data : {
 				"id" : id
 			},
 			success : function(result) {
+				alert(result);
+				/*
 				if (!result) {
 					top.showBox("删除失败", MSG_TYPE.ERROR);
 					return;
 				}
 				top.showBox("删除成功", MSG_TYPE.SUCCESS, refresh);
+				*/
 			}
 		});
 	}

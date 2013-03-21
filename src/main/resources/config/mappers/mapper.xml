@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classMaps>
 	<columnParameters classId="org.mini.model.system.User">
-		<operate operateId="query_user">
+		<operate operateId="queryUer">
 			<columnParameter columnName="user_name" fieldName="userName" parameterName="userName" />
 			<columnParameter columnName="emp_no" fieldName="empNo" parameterName="empNo" />
 		</operate>

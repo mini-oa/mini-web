@@ -10,6 +10,12 @@
 <title><s:property value="%{getText('user.list.title')}"/></title>
 </head>
 <body>
-	hello world
+	<div id="user">
+	<input type="hidden" id="user.id" value="{user.id}" />
+	用户名：<input type="text" id="user.userName" value="${user.userName}" /><br/>
+	工号：<input type="text" id="user.empNo" value="${user.empNo}" /><br/>
+	密码：<input type="text" id="user.password" value="${user.password}" /><br/>
+	<input type="button" value="提交" />
+	</div>
 </body>
 </html>
