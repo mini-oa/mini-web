@@ -1,7 +1,7 @@
 /**
  * 
  */
-package org.mini.web.action;
+package org.mini.web.system.action;
 
 import java.util.List;
 
@@ -75,5 +75,25 @@ public class UserAction extends BaseAction {
 		}
 		
 		return Action.SUCCESS;
+	}
+	
+	public String delete() throws Exception {
+		userService.delete(id);
+		
+		setIsSuccess(true);
+		
+		return Action.INPUT;
+	}
+	
+	public String save() throws Exception {
+		if(user.getId() != 0) {
+			userService.update(user);
+		} else {
+			userService.insert(user);
+		}
+		
+		setIsSuccess(true);
+		
+		return Action.INPUT;
 	}
 }

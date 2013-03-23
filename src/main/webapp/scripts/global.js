@@ -122,12 +122,16 @@ function closeWindow() {
     $.colorbox.close();
 }
 
-function getInput(panelId) {
+function getInput(panelId, isPanel) {
     var input = {};
     $("#" + panelId).find("input[id], textarea[id], select[id]").each(function () {
         var itemType = $(this).attr("type");
         if (itemType == "text" || itemType == "hidden" || itemType == "password" || itemType == "select" || itemType == "select-one" || itemType == "textarea") {
-            input[$(this).attr("key") || $(this).attr("name") || $(this).attr("id")] = $(this).val();
+            var key = $(this).attr("key") || $(this).attr("name") || $(this).attr("id");
+        	if(isPanel) {
+        		key = panelId +"." + key;
+            }
+        	input[key] = $(this).val();
         }
         else if (itemType == "radio" || itemType == "checkbox") {
             var selectValue = "";
@@ -140,13 +144,25 @@ function getInput(panelId) {
                 if (selectValue) {
                     selectValue = selectValue.slice(0, -1);
                 }
-                input[$(this).attr("key") || $(this).attr("name") || $(this).attr("id")] = selectValue;
+                var key = $(this).attr("key") || $(this).attr("name") || $(this).attr("id");
+            	if(isPanel) {
+            		key = panelId +"." + key;
+                }
+            	input[key] = selectValue;
             } else {
-                if (j(this).attr("checked")) {
-                    input[$(this).attr("key") || $(this).attr("name") || $(this).attr("id")] = $(this).attr("value");
+                if ($(this).attr("checked")) {
+                	var key = $(this).attr("key") || $(this).attr("name") || $(this).attr("id");
+                	if(isPanel) {
+                		key = panelId +"." + key;
+                    }
+                	input[key] = $(this).attr("value");
                 }
                 else {
-                    input[$(this).attr("key") || $(this).attr("name") || $(this).attr("id")] = "";
+                	var key = $(this).attr("key") || $(this).attr("name") || $(this).attr("id");
+                	if(isPanel) {
+                		key = panelId +"." + key;
+                    }
+                	input[key] = "";
                 }
             }
         }
