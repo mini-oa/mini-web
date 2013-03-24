@@ -1,5 +1,6 @@
 ﻿var BOX_BORDER_WIDTH = 10;
 var BOX_BORDER_HEIGHT = 38;
+var PROJECT_NAME = "/mini-web";
 
 var MSG_TYPE = {
     "SUCCESS": 1,
@@ -51,7 +52,7 @@ function showBox(msg, msgType, onUnblockFunc) {
             html += '<table border="0" cellpadding="0" cellspacing="0" width="100%">';
             html += '   <tr>';
             html += '       <td style="vertical-align:top;text-align:left;" width="55">';
-            html += '           <img src="/images/messagebox/prompt1.gif" border="0" />';
+            html += '           <img src="' + PROJECT_NAME + '/images/messagebox/prompt1.gif" border="0" />';
             html += '       </td>';
             html += '       <td style="vertical-align:center;text-align:left;color:#505050">';
             html += '           ' + msg;
@@ -64,7 +65,7 @@ function showBox(msg, msgType, onUnblockFunc) {
             html += '<table border="0" cellpadding="0" cellspacing="0" width="100%">';
             html += '   <tr>';
             html += '       <td style="vertical-align:top;text-align:left;" width="55">';
-            html += '           <img src="/images/messagebox/error.gif" border="0" />';
+            html += '           <img src="' + PROJECT_NAME + '/images/messagebox/error.gif" border="0" />';
             html += '       </td>';
             html += '       <td style="vertical-align:center;text-align:left;color:#505050">';
             html += '           ' + msg;
@@ -77,7 +78,7 @@ function showBox(msg, msgType, onUnblockFunc) {
             html += '<table border="0" cellpadding="0" cellspacing="0" width="100%">';
             html += '   <tr>';
             html += '       <td style="vertical-align:top;text-align:left;" width="55">';
-            html += '           <img src="/images/messagebox/prompt_10.gif" border="0" />';
+            html += '           <img src="' + PROJECT_NAME + '/images/messagebox/prompt_10.gif" border="0" />';
             html += '       </td>';
             html += '       <td style="vertical-align:center;text-align:left;color:#505050">';
             html += '           ' + msg;
@@ -90,7 +91,7 @@ function showBox(msg, msgType, onUnblockFunc) {
             html += '<table border="0" cellpadding="0" cellspacing="0" width="100%">';
             html += '   <tr>';
             html += '       <td style="vertical-align:top;text-align:left;" width="55">';
-            html += '           <img src="/images/messagebox/loading.gif" border="0" />';
+            html += '           <img src="' + PROJECT_NAME + '/images/messagebox/loading.gif" border="0" />';
             html += '       </td>';
             html += '       <td style="vertical-align:center;text-align:left;color:#505050">';
             html += '           ' + msg;

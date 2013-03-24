@@ -10,6 +10,7 @@
 <title><s:property value="%{getText('user.list.title')}"/></title>
 </head>
 <body>
+	<input type="button" value="添加" onclick="showEdit(0);" />
 	<form action="user_list" method="post" enctype="application/x-www-form-urlencoded">
 		用户名：<input type="text" name="user.userName" value="${user.userName}" />
 		工号：<input type="text" name="user.empNo" value="${user.empNo}" />
