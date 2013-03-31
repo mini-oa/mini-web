@@ -21,6 +21,21 @@
 </html>
 <script type="text/javascript">
 function save() {
+	$.validity.setup({ outputMode:'custom' });
+	
+	function valid() {
+		$.validity.start();
+		$("#userName").require("用户名必须输入！");
+		$("#password").require("密码必须输入！");
+		var result = $.validity.end();
+		alert(result.messages);
+		return result.valid;
+	}
+	
+	if(!valid()) {
+		return false;
+	}
+	
 	//前面还有验证的代码
 	
 	var user = getInput("user", true);
